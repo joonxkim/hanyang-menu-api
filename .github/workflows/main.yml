@@ -1,24 +1,26 @@
 name: Update Cafeteria Menu
 
-# 언제 이 로봇을 실행할 것인가?
 on:
   schedule:
-    # 한국 시간(KST) 매일 00:00에 실행 (UTC 기준 매일 15:00)
     - cron: '0 15 * * *'
-  workflow_dispatch: # 언제든 수동으로 실행할 수 있는 버튼 유지
+  workflow_dispatch:
+
+# 👇 이 두 줄을 새로 추가해 줍니다! (모든 부품을 최신 Node 24 엔진으로 강제 실행)
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
-      contents: write # 로봇이 레포지토리에 파일을 쓸 수 있는 권한 부여
+      contents: write
 
     steps:
       - name: 저장소 코드 가져오기
-        uses: actions/checkout@v4 # 👈 v4로 변경!
+        uses: actions/checkout@v4
 
       - name: 파이썬 설치하기
-        uses: actions/setup-python@v5 # 👈 v5로 변경!
+        uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 

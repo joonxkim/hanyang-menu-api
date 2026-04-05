@@ -22,6 +22,10 @@ if response.status_code == 200:
     
     for elem in elements:
         if elem.name == 'h3':
+            # 💡 핵심 해결책: 'hyu-element' 클래스가 없는 가짜 이름표(원산지 등)는 완벽히 무시합니다!
+            if 'hyu-element' not in elem.get('class', []):
+                continue
+                
             text = elem.get_text().strip()
             if not text: continue
             
@@ -31,7 +35,6 @@ if response.status_code == 200:
                 current_cafe = text 
                 current_meal = None 
                 
-        # 💡 핵심: 메뉴(p)를 발견했을 때, 현재 식당이 '창의인재원'일 때만 저장합니다!
         elif elem.name == 'p' and current_meal:
             if "창의인재원" in current_cafe:
                 menu_text = elem.get_text().strip()
@@ -63,8 +66,9 @@ if response.status_code == 200:
                         kor_full = f"{prefix} {kor_main} {side_dishes}".strip()
                         eng_full = f"{eng_main}, {eng_sides}".strip() if eng_main else eng_sides
                         
+                        # 중식이 2개여도 리스트에 각각 안전하게 저장됩니다.
                         menu_data.append({
-                            "type": current_meal, # 깔끔하게 '조식', '중식', '석식'만 들어갑니다
+                            "type": current_meal,
                             "kor": kor_full,
                             "eng": eng_full
                         })

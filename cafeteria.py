@@ -15,30 +15,37 @@ menu_data = []
 
 if response.status_code == 200:
     soup = BeautifulSoup(response.text, 'html.parser')
-    elements = soup.find_all(['h3', 'p'])
     
-    current_cafe = ""
-    current_meal = None
-    
-    for elem in elements:
-        if elem.name == 'h3':
-            # 💡 핵심 해결책: 'hyu-element' 클래스가 없는 가짜 이름표(원산지 등)는 완벽히 무시합니다!
-            if 'hyu-element' not in elem.get('class', []):
-                continue
-                
-            text = elem.get_text().strip()
-            if not text: continue
+    # 1. 전체 페이지에서 '창의인재원' 식당의 이름표(h3)를 제일 먼저 콕 집어 찾습니다.
+    target_h3 = None
+    for h3 in soup.find_all('h3', class_='hyu-element'):
+        if "창의인재원" in h3.get_text():
+            target_h3 = h3
+            break
+
+    # 창의인재원식당을 찾았다면, 딱 그 밑에서부터만 탐색을 시작합니다!
+    if target_h3:
+        current_meal = None
+        
+        # target_h3 바로 다음부터 나오는 태그들을 순서대로 확인
+        for elem in target_h3.find_all_next(['h3', 'p']):
             
-            if "조식" in text or "중식" in text or "석식" in text:
-                current_meal = text 
-            elif "댓글" not in text and "바로가기" not in text:
-                current_cafe = text 
-                current_meal = None 
-                
-        elif elem.name == 'p' and current_meal:
-            if "창의인재원" in current_cafe:
+            if elem.name == 'h3':
+                # hyu-element 클래스가 있는 진짜 이름표만 취급
+                if 'hyu-element' in elem.get('class', []):
+                    text = elem.get_text().strip()
+                    
+                    if "조식" in text or "중식" in text or "석식" in text:
+                        current_meal = text
+                    elif "창의인재원" not in text:
+                        # 💡 핵심 방어선(Break): 창의인재원이 아닌 '다른 식당 이름표(예: 학생식당)'가 
+                        # 등장하는 순간, 더 이상 볼 필요 없이 탐색을 완전히 강제 종료합니다!
+                        break
+                        
+            elif elem.name == 'p' and current_meal:
                 menu_text = elem.get_text().strip()
                 
+                # 빈칸이 아니고 실제 메뉴 텍스트일 때만 처리
                 if menu_text and "사용자별 바로가기" not in menu_text:
                     parts = menu_text.split('"')
                     
@@ -66,18 +73,19 @@ if response.status_code == 200:
                         kor_full = f"{prefix} {kor_main} {side_dishes}".strip()
                         eng_full = f"{eng_main}, {eng_sides}".strip() if eng_main else eng_sides
                         
-                        # 중식이 2개여도 리스트에 각각 안전하게 저장됩니다.
                         menu_data.append({
                             "type": current_meal,
                             "kor": kor_full,
                             "eng": eng_full
                         })
                     else:
-                        menu_data.append({
-                            "type": current_meal,
-                            "kor": menu_text,
-                            "eng": ""
-                        })
+                        # 혹시 모를 쓰레기값이 들어가는 것을 방지하기 위해 최소 길이 제한
+                        if len(menu_text) > 5:
+                            menu_data.append({
+                                "type": current_meal,
+                                "kor": menu_text,
+                                "eng": ""
+                            })
 
 with open('menu.json', 'w', encoding='utf-8') as f:
     json.dump(menu_data, f, ensure_ascii=False, indent=4)

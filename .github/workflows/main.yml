@@ -1,0 +1,37 @@
+name: Update Cafeteria Menu
+
+# 언제 이 로봇을 실행할 것인가?
+on:
+  schedule:
+    # 한국 시간(KST) 매일 00:00에 실행 (UTC 기준 매일 15:00)
+    - cron: '0 15 * * *'
+  workflow_dispatch: # 언제든 수동으로 실행할 수 있는 버튼 유지
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # 로봇이 레포지토리에 파일을 쓸 수 있는 권한 부여
+
+    steps:
+      - name: 저장소 코드 가져오기
+        uses: actions/checkout@v3
+
+      - name: 파이썬 설치하기
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11' # 최신 파이썬 환경
+
+      - name: 필요한 부품(라이브러리) 설치하기
+        run: pip install -r requirements.txt
+
+      - name: 학식 가져오는 파이썬 코드 실행!
+        run: python cafeteria.py
+
+      - name: 생성된 menu.json 파일을 깃허브에 저장(Commit & Push)하기
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add menu.json
+          git commit -m "Auto Update Menu Data" || echo "No changes to commit"
+          git push

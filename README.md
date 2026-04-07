@@ -1,1 +1,1 @@
-# hanyang-weekly_menu-api
+# hanyang-menu-api

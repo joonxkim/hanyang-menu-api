@@ -25,7 +25,7 @@
         {
             "type": "조식",
             "kor": "[천원의아침밥] 경상도식소고기무국 쌀밥 후랑크곤약떡조림 깍두기 시리얼*우유 훈제메추리알",
-            "eng": "Gyeongsang-style Beef Radish Soup, Rice, frankincense, braised konjac rice cake, radish radish, cereal*milk, smoked quail egg"
+            "eng": "Gyeongsang-style Beef Radish Soup, Rice, frankincense, braised konjac rice cake, radish radish cereal*milk, smoked quail egg"
         },
         {
             "type": "중식",
@@ -69,8 +69,8 @@
     "2026-06-05(금)": [
         {
             "type": "조식",
-            "kor": "[천원의아침밥] 참치마요김밥 미니라면 삶은계란*소금 그린샐러드*드레싱 바나나 우리쌀프레이크시리얼*저지방우유",
-            "eng": "Tuna Mayo Gimbap, Mini Ramen Boiled Egg*Salt Green Salad*Dressing Banana Korean Rice Flake Cereal*Low-fat Milk"
+            "kor": "[천원의아침밥] 참치마요김밥 미니라면 삶은계란*소금 그린샐러드*드레싱 방울토마토 우리쌀프레이크시리얼*저지방우유",
+            "eng": "Tuna Mayo Gimbap, Mini Ramen Boiled Egg*Salt Green Salad*Dressing Cherry Tomato Korean Rice Flakes Cereal*Low-fat Milk"
         },
         {
             "type": "중식",

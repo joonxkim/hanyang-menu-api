@@ -11,13 +11,13 @@ monday = kst_time - datetime.timedelta(days=kst_time.weekday())
 
 days_str = ["월", "화", "수", "목", "금", "토", "일"]
 
-# 학교 서버 우회용 브라우저 헤더 정보
+# 사이트 차단을 막기 위한 브라우저 헤더 세팅
 headers = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
 }
 
 # ---------------------------------------------------------
-# [1단계] 크롤링 단계 (학교 서버 자동 재시도 로직 추가)
+# [1단계] 크롤링 먼저 싹 다 하기 (번역 절대 금지)
 # ---------------------------------------------------------
 crawled_data = {}
 
@@ -29,22 +29,14 @@ for i in range(7):
     
     url = f"https://www.hanyang.ac.kr/web/www/re13?p_p_id=kr_ac_hanyang_cafe_web_portlet_CafePortlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_kr_ac_hanyang_cafe_web_portlet_CafePortlet_sMenuDate={date_str_url}&_kr_ac_hanyang_cafe_web_portlet_CafePortlet_action=view"
     
-    response = None
-    # 💡 [핵심 개선] 학교 서버 방화벽 대비 최대 3회 자동 재시도 구동
-    for attempt in range(3):
-        try:
-            response = requests.get(url, headers=headers, timeout=15)
-            if response.status_code == 200:
-                break # 성공 시 재시도 루프 탈출
-        except Exception as e:
-            print(f"[{full_key}] ⚠️ {attempt+1}차 연결 지연... 2초 후 다시 시도합니다.")
-            time.sleep(2)
-            
-    # 3번 다 실패했거나 응답 코드가 200이 아닐 때의 예외 처리
-    if response is None or response.status_code != 200:
-        print(f"[{full_key}] 🚨 해당 날짜는 학교 서버 무응답으로 스킵합니다.")
-        crawled_data[full_key] = []
-        continue
+    try:
+        # 타임아웃을 30초로 넉넉하게 늘림
+        response = requests.get(url, headers=headers, timeout=30)
+        response.raise_for_status() # 400~500번대 에러 발생 시 예외 처리
+    except Exception as e:
+        print(f"[{full_key}] 🚨 크롤링 실패 (네트워크 오류): {e}")
+        crawled_data[full_key] = [] # 실패해도 날짜를 아예 지우지 않고 빈 배열로 남김
+        continue 
         
     daily_menu_data = [] 
     soup = BeautifulSoup(response.text, 'html.parser')
@@ -75,6 +67,7 @@ for i in range(7):
             menu_text = text
             if "사용자별 바로가기" in menu_text: continue
                 
+            # 번역은 안 하고, 일단 데이터만 조각내서 임시 보관
             parts = menu_text.split('"')
             if len(parts) >= 3:
                 prefix = parts[0].strip()       
@@ -114,13 +107,12 @@ for i in range(7):
                     break
 
     crawled_data[full_key] = daily_menu_data
-    # 💡 [핵심 개선] 학교 서버가 공격으로 인지하지 않도록 요일 간 휴식 시간을 1.5초로 증설
-    time.sleep(1.5)
+    time.sleep(0.5) # 크롤링 후 잠시 대기
 
 # ---------------------------------------------------------
-# [2단계] 구글 번역 단계 (번역기 세팅 및 안전 장치 강화)
+# [2단계] 크롤링 완료 후, 모아둔 데이터를 한 번에 번역하기
 # ---------------------------------------------------------
-print("✅ 모든 날짜 크롤링 성공. 구글 번역을 개시합니다...")
+print("✅ 크롤링 완료. 번역을 시작합니다...")
 
 translator_en = GoogleTranslator(source='ko', target='en')
 translator_zh = GoogleTranslator(source='ko', target='zh-CN')
@@ -133,30 +125,34 @@ for day_key, menus in crawled_data.items():
     for temp_menu in menus:
         m_type = temp_menu["type"]
         
+        # 큰따옴표 없는 예외 메뉴 처리
         if temp_menu.get("raw_text"):
             kor_full = temp_menu["raw_text"]
             eng_full = ""
+        # 정상적인 메뉴 처리
         else:
             kor_full = f"{temp_menu['prefix']} {temp_menu['kor_main']} {temp_menu['side_dishes']}".strip()
             
+            # 반찬 영어 번역
             eng_sides = ""
             if temp_menu["side_dishes"]:
                 try: 
                     eng_sides = translator_en.translate(temp_menu["side_dishes"])
-                    time.sleep(0.5) # 구글 번역기 트래픽 제한 우회용 딜레이
+                    time.sleep(0.3) # API 공격 방지용 딜레이
                 except Exception as e: 
-                    print(f"🚨 영어 번역 실패 [{day_key}]: {e}")
+                    print(f"🚨 영어 번역 오류 [{day_key}]: {e}")
                     eng_sides = "(Translation failed)"
             
             eng_full = f"{temp_menu['eng_main']}, {eng_sides}".strip() if temp_menu['eng_main'] else eng_sides
 
+        # 전체 메뉴 중국어 번역
         chn_full = ""
         try: 
             chn_full = translator_zh.translate(kor_full)
-            time.sleep(0.5) # 구글 번역기 트래픽 제한 우회용 딜레이
+            time.sleep(0.3)
         except Exception as e: 
-            print(f"🚨 중국어 번역 실패 [{day_key}]: {e}")
-            chn_full = kor_full # 번역 터지면 에러 내지 말고 한국어 원문 유지
+            print(f"🚨 중국어 번역 오류 [{day_key}]: {e}")
+            chn_full = kor_full # 번역 실패 시 빈칸으로 두지 않고 한국어로 덮어쓰기 (강력 추천 사항)
         
         final_daily.append({
             "type": m_type,
@@ -168,9 +164,9 @@ for day_key, menus in crawled_data.items():
     final_weekly_menu[day_key] = final_daily
 
 # ---------------------------------------------------------
-# [3단계] JSON 저장 단계
+# [3단계] 최종 데이터 JSON 저장
 # ---------------------------------------------------------
 with open('weekly_menu.json', 'w', encoding='utf-8') as f:
     json.dump(final_weekly_menu, f, ensure_ascii=False, indent=4)
     
-print("🎉 weekly_menu.json 파일이 완벽하게 생성되었습니다!")
+print("🎉 weekly_menu.json 파일이 성공적으로 생성되었습니다!")

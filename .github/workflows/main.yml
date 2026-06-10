@@ -2,10 +2,10 @@ name: Update Cafeteria Menu
 
 on:
   schedule:
-    - cron: '0 15 * * *'
+    # KST 기준: 매주 일요일(0), 월요일(1) 오전 10시(UTC 1시) 및 오후 4시(UTC 7시)
+    - cron: '0 1,7 * * 0,1'
   workflow_dispatch:
 
-# 👇 이 두 줄을 새로 추가해 줍니다! (모든 부품을 최신 Node 24 엔진으로 강제 실행)
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
@@ -30,10 +30,10 @@ jobs:
       - name: 학식 가져오는 파이썬 코드 실행!
         run: python cafeteria.py
 
-      - name: 생성된 JSON 파일을 깃허브에 저장(Commit & Push)하기
+      - name: 생성된 JSON 파일 및 번역 사전을 깃허브에 저장(Commit & Push)하기
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add weekly_menu.json # 👈 여기를 weekly_menu.json으로 변경!
+          git add weekly_menu.json food_dict.json # 👈 커스텀 사전 파일도 함께 저장하도록 추가!
           git commit -m "Auto Update Weekly Menu Data" || echo "No changes to commit"
           git push

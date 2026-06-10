@@ -103,26 +103,20 @@
             "chn": "大锅熏鸭烤饭/豆腐虾仁炒西兰花糖醋萝卜卷酸奶"
         }
     ],
-    "2026-06-12(금)": [
-        {
-            "type": "조식",
-            "kor": "[천원의아침밥] 땡초참치마요삼각김밥 미니라면 코울슬로 방울토마토 우리쌀프레이크시리얼*저지방우유",
-            "eng": "Spicy Tuna Mayo Rice Ball, Mini ramen, coleslaw, cherry tomatoes, Korean rice flake cereal*low-fat milk",
-            "chn": "[1,000韩元早餐]金枪鱼蛋黄酱三角紫菜包饭迷你拉面凉拌卷心菜樱桃西红柿韩国米片麦片*低脂牛奶"
-        },
+    "2026-06-12(금)": [],
+    "2026-06-13(토)": [],
+    "2026-06-14(일)": [
         {
             "type": "중식",
-            "kor": "서진이네닭갈비 &김소스라면 추가밥/우동장국 만다린샐러드*드레싱 배추김치 요구르트",
-            "eng": "Dakgalbi & Seaweed Sauce Ramen, Additional rice/udong soup, mandarin salad*dressing, cabbage kimchi, yogurt",
-            "chn": "Seojin's 鸡排海藻酱拉面 额外米饭/乌冬面汤 普通话沙拉*调料卷心菜 泡菜 酸奶"
+            "kor": "규동(일본식소고기덮밥) 호박고추장찌개 브로콜리컬리플라워볶음 배추김치 요구르트",
+            "eng": "Gyudon (Japanese Beef Rice Bowl), Pumpkin and red pepper paste stew, stir-fried broccoli and cauliflower, cabbage kimchi, yogurt",
+            "chn": "牛丼（日本牛肉盖饭）、南瓜红辣椒酱炖菜、炒西兰花和花椰菜、卷心菜泡菜、酸奶"
         },
         {
             "type": "석식",
-            "kor": "소고기버섯불고기 쌀밥/매운어묵국 실곤약겨자무침 깍두기 요구르트",
-            "eng": "Beef & Mushroom Bulgogi, Rice/spicy fish cake soup, konjac mustard seasoning, radish radish yogurt",
-            "chn": "牛肉蘑菇烤肉饭/辣鱼饼汤海藻魔芋芥末调味Kkakdugi酸奶"
+            "kor": "돼지고기김치찌개 쌀밥 다시마미나리초무침 깍두기",
+            "eng": "Pork Kimchi Stew, Rice seasoned with kelp, parsley, and radish radish radish",
+            "chn": "猪肉泡菜炖肉，米饭，海带，腌香菜，萝卜萝卜"
         }
-    ],
-    "2026-06-13(토)": [],
-    "2026-06-14(일)": []
+    ]
 }

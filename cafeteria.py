@@ -6,13 +6,14 @@ import json
 import re
 import time 
 
+# 1. 한국 시간 기준 '이번 주 월요일' 날짜 찾기
 kst_time = datetime.datetime.utcnow() + datetime.timedelta(hours=9)
 monday = kst_time - datetime.timedelta(days=kst_time.weekday())
 
 weekly_menu_data = {}
 days_str = ["월", "화", "수", "목", "금", "토", "일"]
 
-# 💡 번역기 미리 세팅 (영어 번역기와 중국어 번역기 2대 준비)
+# 번역기 준비
 translator_en = GoogleTranslator(source='ko', target='en')
 translator_zh = GoogleTranslator(source='ko', target='zh-CN')
 
@@ -58,7 +59,11 @@ for i in range(7):
                         
             elif elem.name == 'p' and is_target_cafe and current_meal:
                 menu_text = text
-                if "사용자별 바로가기" in menu_text: continue
+                
+                # 💡 [버그 해결 핵심 방어선] 
+                # 식단이 아니라 단순 공지/안내 문구라면 브레이크를 터트리지 않고 그냥 다음 줄로 패스(continue)합니다!
+                if any(k in menu_text for k in ["운영시간", "안내사항", "공지", "휴무", "미운영", "바로가기"]):
+                    continue
                     
                 parts = menu_text.split('"')
                 if len(parts) >= 3:
@@ -83,21 +88,20 @@ for i in range(7):
                     kor_full = f"{prefix} {kor_main} {side_dishes}".strip()
                     eng_full = f"{eng_main}, {eng_sides}".strip() if eng_main else eng_sides
                     
-                    # 💡 중국어 번역 로직: 완성된 한국어(kor_full)를 통째로 중국어로 번역
-                    chn_full = ""
-                    if kor_full:
-                        try: chn_full = translator_zh.translate(kor_full)
-                        except: chn_full = ""
+                    try: chn_full = translator_zh.translate(kor_full)
+                    except: chn_full = ""
                     
                     parsed_menu = {"type": current_meal, "kor": kor_full, "eng": eng_full, "chn": chn_full}
                 else:
-                    if len(menu_text) > 5:
+                    # 따옴표가 없는 일반 메뉴 형태일 때 (안내문이 아닌 최소 3글자 이상의 진짜 메뉴만 인정)
+                    if len(menu_text) > 3:
                         try: chn_fallback = translator_zh.translate(menu_text)
                         except: chn_fallback = ""
                         parsed_menu = {"type": current_meal, "kor": menu_text, "eng": "", "chn": chn_fallback}
                     else:
-                        parsed_menu = None
+                        continue 
 
+                # 진짜 메뉴 데이터가 확보되었을 때만 개수를 세고 제한을 적용합니다!
                 if parsed_menu:
                     if current_meal == "조식":
                         daily_menu_data.append(parsed_menu)

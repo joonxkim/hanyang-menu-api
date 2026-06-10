@@ -21,8 +21,8 @@
         {
             "type": "석식",
             "kor": "치킨레드커리라이스 미역국 모듬버섯곤약볶음 깍두기",
-            "eng": "Chicken Red Curry Rice, Seaweed Soup, Stir-fried Mushroom Konjac, Kkakdugi",
-            "chn": "鸡肉红咖喱饭海带汤什锦蘑菇魔芋炒萝卜Kkakdugi"
+            "eng": "Chicken Red Curry Rice, Seaweed soup, stir-fried konjac with assorted mushrooms, radish radish radish",
+            "chn": "鸡肉红咖喱饭海带汤什锦蘑菇魔芋炒萝卜角豆"
         }
     ],
     "2026-06-09(화)": [
@@ -42,12 +42,12 @@
             "type": "중식",
             "kor": "스리라차치킨마요덮밥 쌀밥/두부맑은국 게맛살꽈리고추조림 깍두기",
             "eng": "Sriracha Chicken Mayo Rice Bowl, Rice/clear tofu soup, crab meat, stewed red pepper, radish radish radish",
-            "chn": "是拉差鸡肉蛋黄酱盖饭，米饭/豆腐清汤，蟹肉，炖红辣椒，萝卜萝卜"
+            "chn": "是拉差鸡肉蛋黄酱盖饭/豆腐清汤蟹肉炖红辣椒萝卜萝卜"
         },
         {
             "type": "석식",
             "kor": "불닭순대떡볶음 쌀밥/감자양파국 청포묵김가루무침 배추김치 요구르트",
-            "eng": "Spicy Chicken, Sundae & Rice Cake Stir-fry, Rice/Potato Onion Soup Cheongpo Muk Seaweed Seasoned Cabbage Kimchi Yogurt",
+            "eng": "Spicy Chicken, Sundae & Rice Cake Stir-fry, Rice/Potato Onion Soup Green Pomuk Seaweed Seasoned Cabbage Kimchi Yogurt",
             "chn": "佛达克圣代 炒年糕 米饭/土豆 洋葱汤 青波穆克 海藻 调味卷心菜 泡菜 酸奶"
         }
     ],
@@ -62,7 +62,7 @@
             "type": "중식",
             "kor": "뚝]한방돼지갈비찜 쌀밥/계란부추국 양배추콘샐러드 배추김치 요구르트",
             "eng": "Hot Pot Herbal Braised Pork Ribs, Rice/Egg Chive Soup Cabbage Corn Salad Cabbage Kimchi Yogurt",
-            "chn": "[Duk] 韩药 红烧排骨 米饭/鸡蛋 韭菜汤 卷心菜 玉米沙拉 卷心菜 泡菜 酸奶"
+            "chn": "[Tuk] 东方药 红烧排骨 米饭/鸡蛋 韭菜汤 卷心菜 玉米沙拉 卷心菜 泡菜 酸奶"
         },
         {
             "type": "중식",
@@ -94,12 +94,12 @@
             "type": "중식",
             "kor": "눈꽃치즈돈까스오므라이스 쌀밥/매운호박국 소시지마늘쫑볶음 깍두기",
             "eng": "Cheese Pork Cutlet Omelet Rice, Rice/spicy pumpkin soup stir-fried sausage and garlic radish radish radish",
-            "chn": "雪花芝士 炸猪排 蛋包饭 米饭/辣南瓜汤 香肠 大蒜 炒萝卜 角豆"
+            "chn": "雪花芝士 炸猪排 蛋包饭 米饭/辣南瓜汤 香肠 炒蒜串 Kkakdugi"
         },
         {
             "type": "석식",
             "kor": "가마솥훈제오리구이 쌀밥/두부새우젓찌개 브로콜리맛살볶음 새콤달콤무쌈 요구르트",
-            "eng": "Kettle-Smoked Roast Duck, Rice/tofu and shrimp stew stir-fried broccoli and sweet and sour radish wrap yogurt",
+            "eng": "Kettle-Smoked Roast Duck, Rice/tofu and salted shrimp stew stir-fried broccoli and sweet and sour radish wrap yogurt",
             "chn": "大锅熏鸭烤饭/豆腐虾仁炒西兰花糖醋萝卜卷酸奶"
         }
     ],
@@ -120,10 +120,23 @@
             "type": "석식",
             "kor": "소고기버섯불고기 쌀밥/매운어묵국 실곤약겨자무침 깍두기 요구르트",
             "eng": "Beef & Mushroom Bulgogi, Rice/spicy fish cake soup, konjac mustard seasoning, radish radish yogurt",
-            "chn": "牛肉蘑菇烤肉米饭/辣鱼饼汤海藻魔芋芥末调味Kkakdugi酸奶"
+            "chn": "牛肉蘑菇烤肉饭/辣鱼饼汤海藻魔芋芥末调味Kkakdugi酸奶"
         }
     ],
-    "2026-06-13(토)": [],
+    "2026-06-13(토)": [
+        {
+            "type": "중식",
+            "kor": "마늘간장돈육찜 쌀밥/청양초콩나물국 마늘쫑어묵볶음 깍두기 요구르트",
+            "eng": "Garlic Soy Braised Pork, Rice/Cheongyang Cho bean sprout soup, stir-fried garlic fish cake, radish radish yogurt",
+            "chn": "蒜蓉酱油红烧肉、米饭/青阳醋豆芽汤、蒜蓉炒鱼饼、萝卜萝卜酸奶"
+        },
+        {
+            "type": "석식",
+            "kor": "사골떡만둣국 쌀밥 미역줄기햄볶음 배추김치",
+            "eng": "Ox Bone Rice Cake & Dumpling Soup, Rice, seaweed, stir-fried ham, cabbage kimchi",
+            "chn": "牛骨年糕、饺子汤、米饭、紫菜、炒干火腿、白菜泡菜"
+        }
+    ],
     "2026-06-14(일)": [
         {
             "type": "중식",

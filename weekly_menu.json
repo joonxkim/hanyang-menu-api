@@ -96,19 +96,5 @@
             "eng": "Beef & Mushroom Bulgogi, Rice/spicy fish cake soup, konjac mustard seasoning, radish radish yogurt",
             "chn": "牛肉蘑菇烤肉饭/辣鱼饼汤海藻魔芋芥末调味Kkakdugi酸奶"
         }
-    ],
-    "2026-06-14(일)": [
-        {
-            "type": "중식",
-            "kor": "규동(일본식소고기덮밥) 호박고추장찌개 브로콜리컬리플라워볶음 배추김치 요구르트",
-            "eng": "Gyudon (Japanese Beef Rice Bowl), Pumpkin and red pepper paste stew, stir-fried broccoli and cauliflower, cabbage kimchi, yogurt",
-            "chn": "牛丼（日本牛肉盖饭）、南瓜红辣椒酱炖菜、炒西兰花和花椰菜、卷心菜泡菜、酸奶"
-        },
-        {
-            "type": "석식",
-            "kor": "돼지고기김치찌개 쌀밥 다시마미나리초무침 깍두기",
-            "eng": "Pork Kimchi Stew, Rice seasoned with kelp, parsley, and radish radish radish",
-            "chn": "猪肉泡菜炖肉，米饭，海带，腌香菜，萝卜萝卜"
-        }
     ]
 }

@@ -6,7 +6,7 @@ import re
 # 1. 설정 및 기본 정보
 board_url = "https://hydorm.hanyang.ac.kr/service/board/notice/a/all//index.do"
 # 게시글로 바로가는 기본 URL 형태 (고유 번호를 뒤에 붙여서 완성합니다)
-base_view_url = "https://hydorm.hanyang.ac.kr/service/board/notice/a/all/view.do?seq="
+base_view_url = "https://hydorm.hanyang.ac.kr/service/board/notice/view.do?bdSeq="
 
 headers = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120.0.0.0 Safari/537.36"

@@ -19,7 +19,7 @@ headers = {
 }
 
 # ---------------------------------------------------------
-# [사전 준비] 커스텀 번역 사전 (food_dict.json) 로드 및 자동 생성
+# [사전 준비 1] 커스텀 번역 사전 (food_dict.json) 로드 및 자동 생성
 # ---------------------------------------------------------
 dict_file = 'food_dict.json'
 if not os.path.exists(dict_file):
@@ -36,6 +36,38 @@ with open(dict_file, 'r', encoding='utf-8') as f:
     food_dict = json.load(f)
 
 # ---------------------------------------------------------
+# [사전 준비 2] 하드코어 식재료 태그 사전 (tag_rules.json) 로드 및 자동 생성
+# ---------------------------------------------------------
+tag_file = 'tag_rules.json'
+if not os.path.exists(tag_file):
+    default_tags = {
+        "🐷 돼지고기(Pork/猪肉)": ["돼지", "돈", "제육", "삼겹", "햄", "소시지", "베이컨", "순대", "탕수육", "돈까스", "카츠"],
+        "🐄 소고기(Beef/牛肉)": ["소고기", "우육", "불고기", "차돌", "설렁탕", "갈비", "함박", "우삼겹", "규동"],
+        "🐔 닭고기(Chicken/鸡肉)": ["닭", "치킨", "가라아게", "찜닭", "깐풍기", "닭갈비", "스리라차치킨"],
+        "🐟 해산물(Seafood/海鲜)": ["오징어", "새우", "생선", "참치", "멸치", "꽁치", "고등어", "연어", "어묵", "명태", "쭈꾸미", "게맛살", "다시마"],
+        "🥚 계란(Egg/鸡蛋)": ["계란", "달걀", "후라이", "오므라이스", "지단", "메추리알"],
+        "🥛 유제품(Dairy/乳制品)": ["우유", "치즈", "요구르트", "크림", "버터"],
+        "🥜 콩/견과(Soy&Nuts/大豆&坚果)": ["땅콩", "아몬드", "호두", "두부", "콩나물", "비지", "콩가루"],
+        "🌾 밀가루(Wheat/小麦)": ["면", "소면", "라면", "우동", "스파게티", "파스타", "빵", "샌드위치", "튀김", "만두"]
+    }
+    with open(tag_file, 'w', encoding='utf-8') as f:
+        json.dump(default_tags, f, ensure_ascii=False, indent=4)
+
+with open(tag_file, 'r', encoding='utf-8') as f:
+    tag_rules = json.load(f)
+
+# 태그 추출을 위한 판독기 함수
+def extract_tags(menu_text):
+    if not menu_text: return []
+    tags = set()
+    for tag_name, keywords in tag_rules.items():
+        for keyword in keywords:
+            if keyword in menu_text:
+                tags.add(tag_name)
+                break # 한 카테고리에서 하나라도 발견되면 더 이상 검사 안 함
+    return list(tags)
+
+# ---------------------------------------------------------
 # [1단계] 주간 메뉴 크롤링 및 가로->세로 파싱
 # ---------------------------------------------------------
 # 요일별 빈 리스트 생성 (예: "2026-06-08(월)": [])
@@ -48,7 +80,6 @@ for i in range(7):
 
 print("🔍 한양대 학식 주간 식단표 단일 크롤링을 시도합니다...")
 
-# 💡 [주의] 아래 URL은 학교의 '금주의 식단' 페이지 주소로 맞춰주세요.
 weekly_url = "https://www.hanyang.ac.kr/web/www/re13?p_p_id=kr_ac_hanyang_cafe_web_portlet_CafePortlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_kr_ac_hanyang_cafe_web_portlet_CafePortlet_action=view"
 
 try:
@@ -113,9 +144,9 @@ except Exception as e:
     print(f"🚨 크롤링 에러 발생: {e}")
 
 # ---------------------------------------------------------
-# [2단계] 스마트 구글 번역 단계 (커스텀 사전 가로채기 로직)
+# [2단계] 스마트 구글 번역 & 식재료 태그 분석 단계
 # ---------------------------------------------------------
-print("✅ 크롤링 및 파싱 완료. 커스텀 사전 기반 스마트 번역을 개시합니다...")
+print("✅ 크롤링 및 파싱 완료. 스마트 번역 및 식재료 태그 분석을 개시합니다...")
 
 translator_en = GoogleTranslator(source='ko', target='en')
 translator_zh = GoogleTranslator(source='ko', target='zh-CN')
@@ -160,11 +191,15 @@ for day_key, menus in crawled_data.items():
             # 중국어는 전체 문장 번역
             chn_full = smart_translate(kor_full, 'zh-CN')
         
+        # 💡 [핵심] 조립된 한국어 메뉴 텍스트를 기반으로 식재료 태그 자동 추출
+        menu_tags = extract_tags(kor_full)
+        
         final_daily.append({
             "type": m_type,
             "kor": kor_full,
             "eng": eng_full,
-            "chn": chn_full
+            "chn": chn_full,
+            "tags": menu_tags # 추출된 태그 배열을 최종 데이터에 추가!
         })
         
     final_weekly_menu[day_key] = final_daily
@@ -175,4 +210,4 @@ for day_key, menus in crawled_data.items():
 with open('weekly_menu.json', 'w', encoding='utf-8') as f:
     json.dump(final_weekly_menu, f, ensure_ascii=False, indent=4)
     
-print("🎉 weekly_menu.json 파일이 완벽하게 생성되었습니다!")
+print("🎉 weekly_menu.json 파일이 완벽하게 생성되었습니다! (태그 기능 포함)")

@@ -7,8 +7,8 @@
             "chn": "[1,000韩元早餐] 混合火腿炖拉面、米饭、海藻醋调味、萝卜块麦片*牛奶",
             "tags": [
                 "🐷 돼지고기(Pork/猪肉)",
-                "🥛 유제품(Dairy/乳制品)",
-                "🌾 밀가루(Wheat/小麦)"
+                "🌾 밀가루(Wheat/小麦)",
+                "🥛 유제품(Dairy/乳制品)"
             ]
         },
         {
@@ -18,8 +18,8 @@
             "chn": "土锅盖、烤牛肉、米饭/乌冬汤、莲藕柚子拌饭、卷心菜泡菜、酸奶",
             "tags": [
                 "🐄 소고기(Beef/牛肉)",
-                "🥛 유제품(Dairy/乳制品)",
-                "🌾 밀가루(Wheat/小麦)"
+                "🌾 밀가루(Wheat/小麦)",
+                "🥛 유제품(Dairy/乳制品)"
             ]
         },
         {
@@ -29,8 +29,8 @@
             "chn": "红薯芝士炸猪排套餐饭/乌冬面汤莲藕柚子混合卷心菜泡菜酸奶",
             "tags": [
                 "🐷 돼지고기(Pork/猪肉)",
-                "🥛 유제품(Dairy/乳制品)",
-                "🌾 밀가루(Wheat/小麦)"
+                "🌾 밀가루(Wheat/小麦)",
+                "🥛 유제품(Dairy/乳制品)"
             ]
         },
         {
@@ -39,8 +39,8 @@
             "eng": "Bibimbap with Spicy Pork and Fresh Vegetables, Rice/Bean Sprout Kimchi Soup Dongbu Muk Seaweed Seasoned Kkakdugi",
             "chn": "Jeyuksaeng 蔬菜拌饭米饭/豆芽泡菜汤东部木海藻调味萝卜块",
             "tags": [
-                "🥜 콩/견과(Soy&Nuts/大豆&坚果)",
-                "🐷 돼지고기(Pork/猪肉)"
+                "🐷 돼지고기(Pork/猪肉)",
+                "🥜 콩/견과(Soy&Nuts/大豆&坚果)"
             ]
         }
     ],
@@ -89,11 +89,11 @@
             "type": "조식",
             "kor": "[천원의아참빕] 이북식닭곰탕&당면사리 쌀밥 해파리천사채겨자냉채 깍두기 우리쌀프레이크시리얼*저지방우유",
             "eng": "North Korean-style Chicken Soup with Glass Noodles, Rice Jellyfish Angelica Vegetable Mustard Cold Vegetable Kkakdugi Korean Rice Flake Cereal*Low-fat Milk",
-            "chn": "[1,000韩元的Acham Bipp]朝鲜式鸡肉汤和粉丝，米饭，海蜇，神仙鱼，芥末冷沙拉，韩国米片麦片*低脂牛奶",
+            "chn": "[1,000韩元Acham Bipp]朝鲜式鸡肉汤和粉丝，米饭，海蜇神仙鱼，芥末冷沙拉，韩国米片麦片*低脂牛奶",
             "tags": [
+                "🌾 밀가루(Wheat/小麦)",
                 "🐔 닭고기(Chicken/鸡肉)",
-                "🥛 유제품(Dairy/乳制品)",
-                "🌾 밀가루(Wheat/小麦)"
+                "🥛 유제품(Dairy/乳制品)"
             ]
         },
         {
@@ -112,9 +112,9 @@
             "eng": "Buldak Cream Udon, Rice/pumpkin soybean paste stew water parsley bean sprouts cabbage kimchi yogurt",
             "chn": "Buldak奶油乌冬面米饭/南瓜豆酱炖水欧芹，豆芽，卷心菜泡菜，酸奶",
             "tags": [
+                "🌾 밀가루(Wheat/小麦)",
                 "🐔 닭고기(Chicken/鸡肉)",
-                "🥛 유제품(Dairy/乳制品)",
-                "🌾 밀가루(Wheat/小麦)"
+                "🥛 유제품(Dairy/乳制品)"
             ]
         },
         {
@@ -134,8 +134,8 @@
             "eng": "Bacon Garlic Fried Rice with Fried Egg, Perilla seaweed soup banana cabbage kimchi cereal*milk",
             "chn": "[1,000韩元早餐] 培根蒜蓉炒饭煎蛋紫苏海带汤香蕉白菜泡菜麦片*牛奶",
             "tags": [
-                "🥚 계란(Egg/鸡蛋)",
                 "🐷 돼지고기(Pork/猪肉)",
+                "🥚 계란(Egg/鸡蛋)",
                 "🥛 유제품(Dairy/乳制品)"
             ]
         },
@@ -145,8 +145,8 @@
             "eng": "Hot Stone Pot Spicy Braised Pork Ribs, Rice/Malley Beef Bone Soup Stir-fried Frankincense Garlic Scallops KKakdugi",
             "chn": "[Duk]香辣红烧排骨饭/Eolgal-i牛骨汤炒乳香蒜蓉萝卜块",
             "tags": [
-                "🐄 소고기(Beef/牛肉)",
-                "🐷 돼지고기(Pork/猪肉)"
+                "🐷 돼지고기(Pork/猪肉)",
+                "🐄 소고기(Beef/牛肉)"
             ]
         },
         {
@@ -176,10 +176,10 @@
             "eng": "Buldak Corn Cheese Rice Ball, Mini ramen, boiled egg*salt, cherry tomatoes, Korean rice flake cereal*low-fat milk",
             "chn": "【早餐1,000韩元】Buldak玉米芝士三角紫菜包饭迷你拉面煮鸡蛋*盐樱桃番茄韩国米片麦片*低脂牛奶",
             "tags": [
-                "🐔 닭고기(Chicken/鸡肉)",
-                "🥚 계란(Egg/鸡蛋)",
+                "🌾 밀가루(Wheat/小麦)",
                 "🥛 유제품(Dairy/乳制品)",
-                "🌾 밀가루(Wheat/小麦)"
+                "🐔 닭고기(Chicken/鸡肉)",
+                "🥚 계란(Egg/鸡蛋)"
             ]
         },
         {
@@ -230,8 +230,8 @@
             "eng": "Fire-Grilled Spicy Pork Stir-fry with Shishito Peppers, Rice/beef bone pot soup, fish cake, stewed potatoes, cabbage kimchi, yogurt",
             "chn": "辣椒炒猪肉、米饭/牛骨锅汤、鱼饼、炖土豆、白菜泡菜、酸奶",
             "tags": [
-                "🐟 해산물(Seafood/海鲜)",
                 "🐷 돼지고기(Pork/猪肉)",
+                "🐟 해산물(Seafood/海鲜)",
                 "🥛 유제품(Dairy/乳制品)"
             ]
         },

@@ -2,8 +2,14 @@ name: Update Cafeteria Menu
 
 on:
   schedule:
-    # KST 기준: 매주 일요일(0), 월요일(1) 오전 10시(UTC 1시) 및 오후 4시(UTC 7시)
-    - cron: '0 1,7 * * 0,1'
+    # 1. KST 월요일 오전 6:00, 7:00 -> (UTC 일요일 21:00, 22:00)
+    - cron: '0 21,22 * * 0'
+    
+    # 2. KST 월요일 오전 7:40 -> (UTC 일요일 22:40)
+    - cron: '40 22 * * 0'
+    
+    # 3. KST 화요일~일요일 오전 7:00 -> (UTC 월요일~토요일 22:00)
+    - cron: '0 22 * * 1-6'
   workflow_dispatch:
 
 env:
@@ -30,10 +36,11 @@ jobs:
       - name: 학식 가져오는 파이썬 코드 실행!
         run: python cafeteria.py
 
-      - name: 생성된 JSON 파일 및 번역 사전을 깃허브에 저장(Commit & Push)하기
+      - name: 생성된 JSON 파일 및 관리 사전들을 깃허브에 저장(Commit & Push)하기
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add weekly_menu.json food_dict.json # 👈 커스텀 사전 파일도 함께 저장하도록 추가!
-          git commit -m "Auto Update Weekly Menu Data" || echo "No changes to commit"
+          # 💡 번역 사전(food_dict)과 식재료 태그 사전(tag_rules)이 자동으로 같이 저장되도록 완벽히 처리했습니다.
+          git add weekly_menu.json food_dict.json tag_rules.json 
+          git commit -m "Auto Update Weekly Menu Data with Tags" || echo "No changes to commit"
           git push

@@ -6,8 +6,8 @@
             "eng": "White Seafood Jjamppong Soft Tofu Stew, Rice Stir-fried Oyster Ribs Broccoli Kkakdugi Cereal*Milk",
             "chn": "[1,000韩元早餐] 白麻辣豆腐饭 炒蚝排骨 西兰花 萝卜块 麦片*牛奶",
             "tags": [
-                "🥜 콩/견과(Soy&Nuts/大豆&坚果)",
-                "🥛 유제품(Dairy/乳制品)"
+                "🥛 유제품(Dairy/乳制品)",
+                "🥜 콩/견과(Soy&Nuts/大豆&坚果)"
             ]
         },
         {
@@ -16,10 +16,10 @@
             "eng": "Snow Cheese Dakgalbi, Rice/beef bone soup, stir-fried garlic ham, cabbage kimchi, yogurt",
             "chn": "雪花芝士鸡排 米饭/牛骨 牛肉汤 炒大蒜 火腿 卷心菜 泡菜 酸奶",
             "tags": [
+                "🥛 유제품(Dairy/乳制品)",
                 "🐔 닭고기(Chicken/鸡肉)",
-                "🐷 돼지고기(Pork/猪肉)",
                 "🐄 소고기(Beef/牛肉)",
-                "🥛 유제품(Dairy/乳制品)"
+                "🐷 돼지고기(Pork/猪肉)"
             ]
         },
         {
@@ -28,8 +28,8 @@
             "eng": "Cheongyang Chili Mushroom Bulgogi, Rice/perilla seaweed soup, bok choy, cucumber salad, Kkakdugi",
             "chn": "青阳蘑菇烤肉饭/紫苏海带汤白菜黄瓜调味料萝卜块",
             "tags": [
-                "🐟 해산물(Seafood/海鲜)",
-                "🐄 소고기(Beef/牛肉)"
+                "🐄 소고기(Beef/牛肉)",
+                "🐟 해산물(Seafood/海鲜)"
             ]
         }
     ],
@@ -40,8 +40,8 @@
             "eng": "Spicy Chicken Yukgaejang, Rice, fusilli salad, cabbage, kimchi, cereal*milk",
             "chn": "[早餐1,000韩元] 辣鸡汤、米饭、螺丝粉沙拉、卷心菜泡菜、麦片*牛奶",
             "tags": [
-                "🐔 닭고기(Chicken/鸡肉)",
-                "🥛 유제품(Dairy/乳制品)"
+                "🥛 유제품(Dairy/乳制品)",
+                "🐔 닭고기(Chicken/鸡肉)"
             ]
         },
         {
@@ -60,9 +60,9 @@
             "eng": "Spicy Braised Pork & Rice Cakes, Rice/fish cake soup, stir-fried potato and carrot, cabbage kimchi, yogurt",
             "chn": "香辣红烧肉年糕、年糕/鱼糕汤、炒土豆胡萝卜、白菜泡菜、酸奶",
             "tags": [
+                "🥛 유제품(Dairy/乳制品)",
                 "🐟 해산물(Seafood/海鲜)",
-                "🐷 돼지고기(Pork/猪肉)",
-                "🥛 유제품(Dairy/乳制品)"
+                "🐷 돼지고기(Pork/猪肉)"
             ]
         }
     ],
@@ -73,9 +73,9 @@
             "eng": "Bacon Kimchi Fried Rice & Fried Egg, Perilla radish soup green salad*dressing KKakdugi Korean rice flake cereal*low-fat milk",
             "chn": "[早餐1,000韩元] 培根泡菜炒饭煎蛋紫苏籽萝卜汤绿色沙拉*调料萝卜块韩国米片麦片*低脂牛奶",
             "tags": [
+                "🥛 유제품(Dairy/乳制品)",
                 "🥚 계란(Egg/鸡蛋)",
-                "🐷 돼지고기(Pork/猪肉)",
-                "🥛 유제품(Dairy/乳制品)"
+                "🐷 돼지고기(Pork/猪肉)"
             ]
         },
         {
@@ -85,8 +85,8 @@
             "chn": "牛肉烤肉蘑菇火锅和堂面饭，Olbanggaejeok海藻粉调味萝卜块酸奶",
             "tags": [
                 "🌾 밀가루(Wheat/小麦)",
-                "🐄 소고기(Beef/牛肉)",
-                "🥛 유제품(Dairy/乳制品)"
+                "🥛 유제품(Dairy/乳制品)",
+                "🐄 소고기(Beef/牛肉)"
             ]
         },
         {
@@ -110,8 +110,8 @@
             "chn": "[早餐1,000韩元]雪花&素面纱丽、米饭、牛蒡、红烧魔芋、甜菜根泡菜、麦片*牛奶",
             "tags": [
                 "🌾 밀가루(Wheat/小麦)",
-                "🐄 소고기(Beef/牛肉)",
-                "🥛 유제품(Dairy/乳制品)"
+                "🥛 유제품(Dairy/乳制品)",
+                "🐄 소고기(Beef/牛肉)"
             ]
         },
         {
@@ -131,8 +131,8 @@
             "eng": "Stir-Fried Smoked Duck with Garlic, Rice/jjambbong soup, tri-color mustard cold vegetable, beetroot kimchi, yogurt",
             "chn": "蒜炒熏鸭 米饭/炸酱汤 三色芥末凉菜 甜菜根泡菜 酸奶",
             "tags": [
-                "🦆 오리고기(Duck/鸭肉)",
-                "🥛 유제품(Dairy/乳制品)"
+                "🥛 유제품(Dairy/乳制品)",
+                "🦆 오리고기(Duck/鸭肉)"
             ]
         }
     ],
@@ -143,10 +143,10 @@
             "eng": "Perilla Oil Tuna Mayo & Aged Kimchi Triangle Kimbap, Mini ramen, boiled egg*salt, cherry tomatoes, Korean rice flake cereal*low-fat milk",
             "chn": "[早餐1,000韩元]紫苏油、金枪鱼、蛋黄酱、三角紫菜包饭、迷你拉面、煮鸡蛋*盐、樱桃番茄、韩国米片麦片*低脂牛奶",
             "tags": [
-                "🥚 계란(Egg/鸡蛋)",
                 "🌾 밀가루(Wheat/小麦)",
-                "🐟 해산물(Seafood/海鲜)",
-                "🥛 유제품(Dairy/乳制品)"
+                "🥛 유제품(Dairy/乳制品)",
+                "🥚 계란(Egg/鸡蛋)",
+                "🐟 해산물(Seafood/海鲜)"
             ]
         },
         {

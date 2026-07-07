@@ -28,8 +28,8 @@
             "eng": "Soy Braised Chicken with Scorched Rice, Rice/Leek Egg Soup Fish Cake and Stir-fried Red Pepper Kkakdugi",
             "chn": "Nurungji酱油蒸鸡饭/韭菜鸡蛋汤炒鱼饼红辣椒萝卜块",
             "tags": [
-                "🐟 해산물(Seafood/海鲜)",
                 "🐔 닭고기(Chicken/鸡肉)",
+                "🐟 해산물(Seafood/海鲜)",
                 "🥚 계란(Egg/鸡蛋)"
             ]
         }
@@ -42,10 +42,10 @@
             "chn": "[早餐1,000韩元] 饺子、油菜酱、米饭、紫菜、火腿炒菜、白菜泡菜、麦片*牛奶",
             "tags": [
                 "🐷 돼지고기(Pork/猪肉)",
+                "🐄 소고기(Beef/牛肉)",
                 "🌾 밀가루(Wheat/小麦)",
-                "🥛 유제품(Dairy/乳制品)",
                 "🐟 해산물(Seafood/海鲜)",
-                "🐄 소고기(Beef/牛肉)"
+                "🥛 유제품(Dairy/乳制品)"
             ]
         },
         {
@@ -54,8 +54,8 @@
             "eng": "Hot Stone Bowl Pork Bulgogi with Green Onion, Rice/beef bone soup, acorn lettuce salad, Kkakdugi",
             "chn": "[Tuk] 大葱猪肉烤肉、米饭/牛骨汤、橡子生菜沙拉、萝卜块",
             "tags": [
-                "🐄 소고기(Beef/牛肉)",
-                "🐷 돼지고기(Pork/猪肉)"
+                "🐷 돼지고기(Pork/猪肉)",
+                "🐄 소고기(Beef/牛肉)"
             ]
         },
         {
@@ -64,9 +64,9 @@
             "eng": "Chipotle Duck Stir-Fry with Vegetables, Rice/Pasong trout fish cake soup, stir-fried green beans, cabbage kimchi, yogurt",
             "chn": "墨西哥辣鸭 炒蔬菜 米饭/巴松鳟鱼 鱼饼汤 炒肉 萨尔 青豆 卷心菜 泡菜 酸奶",
             "tags": [
+                "🥛 유제품(Dairy/乳制品)",
                 "🐟 해산물(Seafood/海鲜)",
-                "🦆 오리고기(Duck/鸭肉)",
-                "🥛 유제품(Dairy/乳制品)"
+                "🦆 오리고기(Duck/鸭肉)"
             ]
         }
     ],
@@ -77,10 +77,10 @@
             "eng": "Ham Kimchi Fried Rice with Fried Egg, Seaweed soup, cherry tomatoes, half-dal pickled radish, Korean rice flake cereal*low-fat milk",
             "chn": "【早餐1,000韩元】火腿泡菜炒饭煎蛋、紫菜汤、圣女果、半月萝卜、韩国米片麦片*低脂牛奶",
             "tags": [
-                "🐟 해산물(Seafood/海鲜)",
-                "🥚 계란(Egg/鸡蛋)",
                 "🥛 유제품(Dairy/乳制品)",
-                "🐷 돼지고기(Pork/猪肉)"
+                "🐷 돼지고기(Pork/猪肉)",
+                "🥚 계란(Egg/鸡蛋)",
+                "🐟 해산물(Seafood/海鲜)"
             ]
         },
         {
@@ -89,9 +89,9 @@
             "eng": "Pork Cutlet Rice Bowl, Udon Soup, Stir-fried Potato Shredded Peppers, Cabbage Kimchi, Yogurt",
             "chn": "乌冬面汤，炒土豆青椒，白菜泡菜，酸奶",
             "tags": [
-                "🌾 밀가루(Wheat/小麦)",
                 "🥛 유제품(Dairy/乳制品)",
-                "🐷 돼지고기(Pork/猪肉)"
+                "🐷 돼지고기(Pork/猪肉)",
+                "🌾 밀가루(Wheat/小麦)"
             ]
         },
         {
@@ -100,9 +100,9 @@
             "eng": "Chicken Bulgogi Rice Bowl, Spicy bean sprout kimchi soup, broccoli and sesame seasoning, KKakdugi",
             "chn": "鸡肉烤肉盖饭 辣豆芽 泡菜汤 西兰花 芝麻沙拉 萝卜块",
             "tags": [
-                "🥜 콩/견과(Soy&Nuts/大豆&坚果)",
+                "🐔 닭고기(Chicken/鸡肉)",
                 "🐄 소고기(Beef/牛肉)",
-                "🐔 닭고기(Chicken/鸡肉)"
+                "🥜 콩/견과(Soy&Nuts/大豆&坚果)"
             ]
         }
     ],
@@ -113,9 +113,9 @@
             "eng": "Naju Gomtang with Glass Noodles, Rice, bean sprouts, green onion salad, Kkakdugi cereal*milk",
             "chn": "[早餐1,000韩元]罗州汤和粉丝、米饭、豆芽、葱沙拉、萝卜块麦片*牛奶",
             "tags": [
-                "🌾 밀가루(Wheat/小麦)",
                 "🥛 유제품(Dairy/乳制品)",
-                "🥜 콩/견과(Soy&Nuts/大豆&坚果)"
+                "🥜 콩/견과(Soy&Nuts/大豆&坚果)",
+                "🌾 밀가루(Wheat/小麦)"
             ]
         },
         {
@@ -133,10 +133,10 @@
             "eng": "Braised Pork Ribs with Kabocha Squash, Rice/Potato Seaweed Soup Braised Baby Bird Chrysanthemum Chili Pepper Cabbage Kimchi Yogurt",
             "chn": "南瓜蒸排骨 米饭/土豆海带汤 红烧小鸟牡蛎，磷虾辣椒，白菜泡菜，酸奶",
             "tags": [
-                "🐟 해산물(Seafood/海鲜)",
                 "🥛 유제품(Dairy/乳制品)",
+                "🐷 돼지고기(Pork/猪肉)",
                 "🐄 소고기(Beef/牛肉)",
-                "🐷 돼지고기(Pork/猪肉)"
+                "🐟 해산물(Seafood/海鲜)"
             ]
         }
     ],
@@ -147,10 +147,10 @@
             "eng": "Beef Gochujang Fried Rice Triangle Kimbap, Mini Ramen Boiled Egg*Salt Green Salad*Dressing Korean Rice Flake Cereal*Low-fat Milk",
             "chn": "【早餐1,000韩元】炒牛肉红辣椒酱三角紫菜包饭迷你拉面煮鸡蛋*盐青沙拉*调料韩式米片麦片*低脂牛奶",
             "tags": [
-                "🌾 밀가루(Wheat/小麦)",
                 "🥛 유제품(Dairy/乳制品)",
                 "🐄 소고기(Beef/牛肉)",
-                "🥚 계란(Egg/鸡蛋)"
+                "🥚 계란(Egg/鸡蛋)",
+                "🌾 밀가루(Wheat/小麦)"
             ]
         },
         {
@@ -169,11 +169,11 @@
             "eng": "Smoky Cheese Dakgalbi Rice Bowl, Cabbage Miso Soup Stir-fried Crab Meat Pumpkin Kkakdugi",
             "chn": "布尔玛特芝士 鸡排盖饭 白菜味噌汤 炒蟹肉 南瓜萝卜块",
             "tags": [
+                "🐄 소고기(Beef/牛肉)",
                 "🥛 유제품(Dairy/乳制品)",
                 "🐟 해산물(Seafood/海鲜)",
-                "🐄 소고기(Beef/牛肉)",
-                "🥜 콩/견과(Soy&Nuts/大豆&坚果)",
-                "🐔 닭고기(Chicken/鸡肉)"
+                "🐔 닭고기(Chicken/鸡肉)",
+                "🥜 콩/견과(Soy&Nuts/大豆&坚果)"
             ]
         }
     ],
@@ -184,8 +184,8 @@
             "eng": "Crispy Soy Sauce Bulgogi, Rice/Grass bean sprout soup, Cheongpo jelly seaweed seasoned KKakdugi",
             "chn": "脆皮酱油烤肉饭/草豆芽汤 青浦凉粉海苔调味萝卜块",
             "tags": [
-                "🥜 콩/견과(Soy&Nuts/大豆&坚果)",
-                "🐄 소고기(Beef/牛肉)"
+                "🐄 소고기(Beef/牛肉)",
+                "🥜 콩/견과(Soy&Nuts/大豆&坚果)"
             ]
         },
         {

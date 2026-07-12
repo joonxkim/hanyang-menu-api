@@ -3,7 +3,7 @@
         {
             "type": "조식",
             "kor": "[천원의아침밥] 스팸김치볶음밥&계란후라이 팽이장국 청포묵김가루무침 반달단무지 콘앤스위트시리얼*흰우유",
-            "eng": "Spam Kimchi Fried Rice & Fried Egg, Top soup, Cheongpomuk seaweed seasoning, half-moon pickled radish, corn and sweet cereal*white milk",
+            "eng": "Spam Kimchi Fried Rice & Fried Egg, Top soup, Cheongpomuk seaweed seasoning, half-dal pickled radish, corn and sweet cereal*white milk",
             "chn": "[1,000韩元早餐]垃圾泡菜炒饭和煎蛋，金针汤，青浦木海藻调味，半月腌萝卜，玉米和甜麦片*白牛奶",
             "tags": [
                 "🥚 계란(Egg/鸡蛋)",
@@ -16,8 +16,8 @@
             "eng": "Soy-Braised Beef & Butter Bibimbap, Cabbage Miso Soup Stir-fried Ham and Potatoes Kkakdugi Yogurt",
             "chn": "酱青林奶油拌饭、白菜黄豆汤、炒火腿土豆、萝卜块酸奶",
             "tags": [
-                "🥛 유제품(Dairy/乳制品)",
                 "🐷 돼지고기(Pork/猪肉)",
+                "🥛 유제품(Dairy/乳制品)",
                 "🥜 콩/견과(Soy&Nuts/大豆&坚果)"
             ]
         },
@@ -28,8 +28,8 @@
             "chn": "大蒜鸡肉白饭汤 米饭/紫苏 海带汤 鱼饼 煮鹌鹑蛋 卷心菜 泡菜",
             "tags": [
                 "🥚 계란(Egg/鸡蛋)",
-                "🐔 닭고기(Chicken/鸡肉)",
-                "🐟 해산물(Seafood/海鲜)"
+                "🐟 해산물(Seafood/海鲜)",
+                "🐔 닭고기(Chicken/鸡肉)"
             ]
         }
     ],
@@ -59,11 +59,11 @@
             "eng": "Teriyaki Pork Bulgogi Rice Bowl, Soft Tofu Egg Soup, Konjac Vegetable Stew, Kkakdugi Yogurt",
             "chn": "照烧猪肉烤肉盖饭 软豆腐 鸡蛋汤 魔芋蔬菜沙拉 萝卜块 酸奶",
             "tags": [
+                "🥜 콩/견과(Soy&Nuts/大豆&坚果)",
                 "🐷 돼지고기(Pork/猪肉)",
                 "🥛 유제품(Dairy/乳制品)",
-                "🐄 소고기(Beef/牛肉)",
                 "🥚 계란(Egg/鸡蛋)",
-                "🥜 콩/견과(Soy&Nuts/大豆&坚果)"
+                "🐄 소고기(Beef/牛肉)"
             ]
         }
     ],
@@ -72,7 +72,7 @@
             "type": "조식",
             "kor": "[천원의아침밥] 진주식속풀이해장국 쌀밥 두부간장조림 깍두기 우리쌀프레이크시리얼*저지방우유",
             "eng": "Jinju-Style Hangover Soup, Rice, braised tofu and soy sauce, Kkakdugi, Korean rice flake cereal*low-fat milk",
-            "chn": "[1,000韩元早餐]晋州餐馅、解酒汤、米饭、豆腐、酱油炖菜、萝卜块韩国米片麦片*低脂牛奶",
+            "chn": "[价值1000韩元的早餐]晋州餐、解酒汤、米饭、红烧豆腐和酱油、萝卜块韩国米片麦片*低脂牛奶",
             "tags": [
                 "🥛 유제품(Dairy/乳制品)",
                 "🥜 콩/견과(Soy&Nuts/大豆&坚果)"
@@ -84,9 +84,9 @@
             "eng": "Pork Cutlet Curry Rice, Tofu Kelp Miso Soup Macaroni Corn Salad Kkakdugi Yogurt",
             "chn": "咖喱猪排、米饭、豆腐、海带、味噌汤、通心粉玉米沙拉、酸奶",
             "tags": [
-                "🥛 유제품(Dairy/乳制品)",
                 "🐷 돼지고기(Pork/猪肉)",
                 "🐟 해산물(Seafood/海鲜)",
+                "🥛 유제품(Dairy/乳制品)",
                 "🥜 콩/견과(Soy&Nuts/大豆&坚果)"
             ]
         },
@@ -109,20 +109,20 @@
             "eng": "Smoked Duck & Chive Fried Rice, Beef bone soup, fish cake, stir-fried vegetables, cabbage kimchi, Chex chocolate cereal*white milk",
             "chn": "[早餐1,000韩元] 7月16日 熏鸭韭菜炒饭 牛骨汤、鱼饼、炒蔬菜、白菜泡菜、Chex巧克力麦片*白牛奶",
             "tags": [
-                "🥛 유제품(Dairy/乳制品)",
                 "🦆 오리고기(Duck/鸭肉)",
+                "🐟 해산물(Seafood/海鲜)",
                 "🐄 소고기(Beef/牛肉)",
-                "🐟 해산물(Seafood/海鲜)"
+                "🥛 유제품(Dairy/乳制品)"
             ]
         },
         {
             "type": "중식",
             "kor": "꼬치어묵잔치국수 추가밥 미니메밀전병 배추김치",
             "eng": "Janchi Guksu with Fish Cake Skewers, Additional rice, mini buckwheat pancakes, cabbage kimchi",
-            "chn": "串烧鱼糕面，加米饭，迷你荞麦煎饼，白菜泡菜",
+            "chn": "串烧鱼饼 宴会面 加米饭 迷你荞麦煎饼 白菜泡菜",
             "tags": [
-                "🌾 밀가루(Wheat/小麦)",
-                "🐟 해산물(Seafood/海鲜)"
+                "🐟 해산물(Seafood/海鲜)",
+                "🌾 밀가루(Wheat/小麦)"
             ]
         },
         {

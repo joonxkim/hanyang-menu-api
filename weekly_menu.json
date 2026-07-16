@@ -17,8 +17,8 @@
             "chn": "酱青林奶油拌饭、白菜黄豆汤、炒火腿土豆、萝卜块酸奶",
             "tags": [
                 "🐷 돼지고기(Pork/猪肉)",
-                "🥜 콩/견과(Soy&Nuts/大豆&坚果)",
-                "🥛 유제품(Dairy/乳制品)"
+                "🥛 유제품(Dairy/乳制品)",
+                "🥜 콩/견과(Soy&Nuts/大豆&坚果)"
             ]
         },
         {
@@ -40,8 +40,8 @@
             "eng": "Spicy Kimchi Stew with Tofu, Rice, Peanuts and Beans Kkakdugi Chocolate Ring Cereal*White Milk",
             "chn": "【早餐1,000韩元】辣豆腐泡菜炖饭、炒花生豆、萝卜块巧克力环麦片*白牛奶",
             "tags": [
-                "🥜 콩/견과(Soy&Nuts/大豆&坚果)",
-                "🥛 유제품(Dairy/乳制品)"
+                "🥛 유제품(Dairy/乳制品)",
+                "🥜 콩/견과(Soy&Nuts/大豆&坚果)"
             ]
         },
         {
@@ -60,10 +60,10 @@
             "chn": "照烧猪肉烤肉盖饭 软豆腐 鸡蛋汤 魔芋蔬菜沙拉 萝卜块 酸奶",
             "tags": [
                 "🐷 돼지고기(Pork/猪肉)",
+                "🥚 계란(Egg/鸡蛋)",
                 "🐄 소고기(Beef/牛肉)",
                 "🥜 콩/견과(Soy&Nuts/大豆&坚果)",
-                "🥛 유제품(Dairy/乳制品)",
-                "🥚 계란(Egg/鸡蛋)"
+                "🥛 유제품(Dairy/乳制品)"
             ]
         }
     ],
@@ -74,8 +74,8 @@
             "eng": "Jinju-Style Hangover Soup, Rice, braised tofu and soy sauce, Kkakdugi, Korean rice flake cereal*low-fat milk",
             "chn": "[1,000韩元早餐]晋州餐馅、解酒汤、米饭、豆腐和酱油炖萝卜块韩国米片麦片*低脂牛奶",
             "tags": [
-                "🥜 콩/견과(Soy&Nuts/大豆&坚果)",
-                "🥛 유제품(Dairy/乳制品)"
+                "🥛 유제품(Dairy/乳制品)",
+                "🥜 콩/견과(Soy&Nuts/大豆&坚果)"
             ]
         },
         {
@@ -86,8 +86,8 @@
             "tags": [
                 "🐟 해산물(Seafood/海鲜)",
                 "🐷 돼지고기(Pork/猪肉)",
-                "🥜 콩/견과(Soy&Nuts/大豆&坚果)",
-                "🥛 유제품(Dairy/乳制品)"
+                "🥛 유제품(Dairy/乳制品)",
+                "🥜 콩/견과(Soy&Nuts/大豆&坚果)"
             ]
         },
         {
@@ -97,8 +97,8 @@
             "chn": "辣排骨年糕 米饭/大酱汤 蒜炒火腿 白菜泡菜",
             "tags": [
                 "🐷 돼지고기(Pork/猪肉)",
-                "🥜 콩/견과(Soy&Nuts/大豆&坚果)",
-                "🐄 소고기(Beef/牛肉)"
+                "🐄 소고기(Beef/牛肉)",
+                "🥜 콩/견과(Soy&Nuts/大豆&坚果)"
             ]
         }
     ],
@@ -109,10 +109,10 @@
             "eng": "Smoked Duck & Chive Fried Rice, Beef bone soup, fish cake, stir-fried vegetables, cabbage kimchi, Chex chocolate cereal*white milk",
             "chn": "[早餐1,000韩元] 7月16日 熏鸭韭菜炒饭 牛骨汤、鱼饼、炒蔬菜、白菜泡菜、Chex巧克力麦片*白牛奶",
             "tags": [
-                "🐟 해산물(Seafood/海鲜)",
-                "🐄 소고기(Beef/牛肉)",
                 "🦆 오리고기(Duck/鸭肉)",
-                "🥛 유제품(Dairy/乳制品)"
+                "🐟 해산물(Seafood/海鲜)",
+                "🥛 유제품(Dairy/乳制品)",
+                "🐄 소고기(Beef/牛肉)"
             ]
         },
         {
@@ -121,8 +121,8 @@
             "eng": "Janchi Guksu with Fish Cake Skewers, Additional rice, mini buckwheat pancakes, cabbage kimchi",
             "chn": "串烧鱼糕面，加米饭，迷你荞麦煎饼，白菜泡菜",
             "tags": [
-                "🐟 해산물(Seafood/海鲜)",
-                "🌾 밀가루(Wheat/小麦)"
+                "🌾 밀가루(Wheat/小麦)",
+                "🐟 해산물(Seafood/海鲜)"
             ]
         },
         {
@@ -145,8 +145,8 @@
             "eng": "Cheesy Budae Rice Bowl, Mallow miso soup, braised king oyster konjac, cabbage kimchi, yogurt",
             "chn": "芝士包盖饭、锦葵味噌汤、红烧蒟蒻、白菜泡菜、酸奶",
             "tags": [
-                "🥜 콩/견과(Soy&Nuts/大豆&坚果)",
-                "🥛 유제품(Dairy/乳制品)"
+                "🥛 유제품(Dairy/乳制品)",
+                "🥜 콩/견과(Soy&Nuts/大豆&坚果)"
             ]
         },
         {

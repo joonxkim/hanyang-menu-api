@@ -6,8 +6,8 @@
             "eng": "Spam Kimchi Fried Rice & Fried Egg, Top soup, Cheongpomuk seaweed seasoning, half-dal pickled radish, corn and sweet cereal*white milk",
             "chn": "[1,000韩元早餐]垃圾泡菜炒饭和煎蛋，金针汤，青浦木海藻调味，半月腌萝卜，玉米和甜麦片*白牛奶",
             "tags": [
-                "🥛 유제품(Dairy/乳制品)",
-                "🥚 계란(Egg/鸡蛋)"
+                "🥚 계란(Egg/鸡蛋)",
+                "🥛 유제품(Dairy/乳制品)"
             ]
         },
         {
@@ -16,9 +16,9 @@
             "eng": "Soy-Braised Beef & Butter Bibimbap, Cabbage Miso Soup Stir-fried Ham and Potatoes Kkakdugi Yogurt",
             "chn": "酱青林奶油拌饭、白菜黄豆汤、炒火腿土豆、萝卜块酸奶",
             "tags": [
+                "🥜 콩/견과(Soy&Nuts/大豆&坚果)",
                 "🥛 유제품(Dairy/乳制品)",
-                "🐷 돼지고기(Pork/猪肉)",
-                "🥜 콩/견과(Soy&Nuts/大豆&坚果)"
+                "🐷 돼지고기(Pork/猪肉)"
             ]
         },
         {
@@ -40,8 +40,8 @@
             "eng": "Spicy Kimchi Stew with Tofu, Rice, Peanuts and Beans Kkakdugi Chocolate Ring Cereal*White Milk",
             "chn": "【早餐1,000韩元】辣豆腐泡菜炖饭、炒花生豆、萝卜块巧克力环麦片*白牛奶",
             "tags": [
-                "🥛 유제품(Dairy/乳制品)",
-                "🥜 콩/견과(Soy&Nuts/大豆&坚果)"
+                "🥜 콩/견과(Soy&Nuts/大豆&坚果)",
+                "🥛 유제품(Dairy/乳制品)"
             ]
         },
         {
@@ -59,10 +59,10 @@
             "eng": "Teriyaki Pork Bulgogi Rice Bowl, Soft Tofu Egg Soup, Konjac Vegetable Stew, Kkakdugi Yogurt",
             "chn": "照烧猪肉烤肉盖饭 软豆腐 鸡蛋汤 魔芋蔬菜沙拉 萝卜块 酸奶",
             "tags": [
-                "🐄 소고기(Beef/牛肉)",
-                "🥜 콩/견과(Soy&Nuts/大豆&坚果)",
-                "🥛 유제품(Dairy/乳制品)",
                 "🥚 계란(Egg/鸡蛋)",
+                "🥛 유제품(Dairy/乳制品)",
+                "🥜 콩/견과(Soy&Nuts/大豆&坚果)",
+                "🐄 소고기(Beef/牛肉)",
                 "🐷 돼지고기(Pork/猪肉)"
             ]
         }
@@ -74,8 +74,8 @@
             "eng": "Jinju-Style Hangover Soup, Rice, braised tofu and soy sauce, Kkakdugi, Korean rice flake cereal*low-fat milk",
             "chn": "[1,000韩元早餐]晋州餐馅、解酒汤、米饭、豆腐和酱油炖萝卜块韩国米片麦片*低脂牛奶",
             "tags": [
-                "🥛 유제품(Dairy/乳制品)",
-                "🥜 콩/견과(Soy&Nuts/大豆&坚果)"
+                "🥜 콩/견과(Soy&Nuts/大豆&坚果)",
+                "🥛 유제품(Dairy/乳制品)"
             ]
         },
         {
@@ -84,10 +84,10 @@
             "eng": "Pork Cutlet Curry Rice, Tofu Kelp Miso Soup Macaroni Corn Salad Kkakdugi Yogurt",
             "chn": "咖喱猪排、米饭、豆腐、海带、味噌汤、通心粉玉米沙拉、酸奶",
             "tags": [
-                "🥛 유제품(Dairy/乳制品)",
-                "🐷 돼지고기(Pork/猪肉)",
+                "🥜 콩/견과(Soy&Nuts/大豆&坚果)",
                 "🐟 해산물(Seafood/海鲜)",
-                "🥜 콩/견과(Soy&Nuts/大豆&坚果)"
+                "🥛 유제품(Dairy/乳制品)",
+                "🐷 돼지고기(Pork/猪肉)"
             ]
         },
         {
@@ -96,9 +96,9 @@
             "eng": "Spicy Braised Pork Ribs with Rice Cakes, Rice/soybean paste soup, stir-fried garlic ham, cabbage kimchi",
             "chn": "辣排骨年糕 米饭/大酱汤 蒜炒火腿 白菜泡菜",
             "tags": [
+                "🥜 콩/견과(Soy&Nuts/大豆&坚果)",
                 "🐄 소고기(Beef/牛肉)",
-                "🐷 돼지고기(Pork/猪肉)",
-                "🥜 콩/견과(Soy&Nuts/大豆&坚果)"
+                "🐷 돼지고기(Pork/猪肉)"
             ]
         }
     ],
@@ -109,10 +109,10 @@
             "eng": "Smoked Duck & Chive Fried Rice, Beef bone soup, fish cake, stir-fried vegetables, cabbage kimchi, Chex chocolate cereal*white milk",
             "chn": "[早餐1,000韩元] 7月16日 熏鸭韭菜炒饭 牛骨汤、鱼饼、炒蔬菜、白菜泡菜、Chex巧克力麦片*白牛奶",
             "tags": [
-                "🦆 오리고기(Duck/鸭肉)",
-                "🥛 유제품(Dairy/乳制品)",
+                "🐟 해산물(Seafood/海鲜)",
                 "🐄 소고기(Beef/牛肉)",
-                "🐟 해산물(Seafood/海鲜)"
+                "🥛 유제품(Dairy/乳制品)",
+                "🦆 오리고기(Duck/鸭肉)"
             ]
         },
         {
@@ -131,9 +131,9 @@
             "eng": "Snow Cheese Jikoba-Style Spicy Chicken, Rice/clear bean sprout soup, broccoli and sesame seasoning, Kkakdugi yogurt",
             "chn": "雪花鸡巴 辣鸡炒饭/清豆芽汤 西兰花 芝麻 调味酸奶",
             "tags": [
-                "🥛 유제품(Dairy/乳制品)",
                 "🐔 닭고기(Chicken/鸡肉)",
-                "🥜 콩/견과(Soy&Nuts/大豆&坚果)"
+                "🥜 콩/견과(Soy&Nuts/大豆&坚果)",
+                "🥛 유제품(Dairy/乳制品)"
             ]
         }
     ],
@@ -145,8 +145,8 @@
             "eng": "Cheesy Budae Rice Bowl, Mallow miso soup, braised king oyster konjac, cabbage kimchi, yogurt",
             "chn": "芝士包盖饭、锦葵味噌汤、红烧蒟蒻、白菜泡菜、酸奶",
             "tags": [
-                "🥛 유제품(Dairy/乳制品)",
-                "🥜 콩/견과(Soy&Nuts/大豆&坚果)"
+                "🥜 콩/견과(Soy&Nuts/大豆&坚果)",
+                "🥛 유제품(Dairy/乳制品)"
             ]
         },
         {

@@ -107,9 +107,9 @@
             "chn": "[早餐1,000韩元]清鸡汤*粉丝，米饭，鹌鹑蛋，鱼饼，煮鹌鹑蛋，麦片*牛奶",
             "tags": [
                 "🥛 유제품(Dairy/乳制品)",
-                "🐟 해산물(Seafood/海鲜)",
                 "🐔 닭고기(Chicken/鸡肉)",
                 "🌾 밀가루(Wheat/小麦)",
+                "🐟 해산물(Seafood/海鲜)",
                 "🥚 계란(Egg/鸡蛋)"
             ]
         },
@@ -120,9 +120,9 @@
             "chn": "鸭肉蔬菜炒饭/豆腐汤 炒西兰花按摩 芥末包菜 萝卜酸奶",
             "tags": [
                 "🦆 오리고기(Duck/鸭肉)",
-                "🥜 콩/견과(Soy&Nuts/大豆&坚果)",
                 "🥛 유제품(Dairy/乳制品)",
-                "🐟 해산물(Seafood/海鲜)"
+                "🐟 해산물(Seafood/海鲜)",
+                "🥜 콩/견과(Soy&Nuts/大豆&坚果)"
             ]
         },
         {
@@ -142,10 +142,10 @@
             "eng": "Large Bacon Tuna Mayo Triangle Kimbap, Mini Ramen Boiled Egg*Salt Green Salad*Dressing Korean Rice Flake Cereal*Low-fat Milk",
             "chn": "[早餐1,000韩元]大培根，金枪鱼蛋黄酱，三角紫菜包饭，迷你拉面，煮鸡蛋*盐，蔬菜沙拉*调味料，韩国米片麦片*低脂牛奶",
             "tags": [
-                "🥛 유제품(Dairy/乳制品)",
-                "🐟 해산물(Seafood/海鲜)",
                 "🐷 돼지고기(Pork/猪肉)",
+                "🥛 유제품(Dairy/乳制品)",
                 "🌾 밀가루(Wheat/小麦)",
+                "🐟 해산물(Seafood/海鲜)",
                 "🥚 계란(Egg/鸡蛋)"
             ]
         },
@@ -187,8 +187,8 @@
             "eng": "Beef Radish Soup, Rice, Stir-fried Oyster, Kkakdugi Yogurt",
             "chn": "牛肉萝卜汤、米饭、炒生蚝、萝卜块酸奶",
             "tags": [
-                "🥛 유제품(Dairy/乳制品)",
                 "🐄 소고기(Beef/牛肉)",
+                "🥛 유제품(Dairy/乳制品)",
                 "🐟 해산물(Seafood/海鲜)"
             ]
         }

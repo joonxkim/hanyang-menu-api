@@ -1,148 +1,152 @@
 {
-    "2026-07-27(월)": [
+    "2026-08-03(월)": [
         {
             "type": "조식",
-            "kor": "[천원의아침밥] 돈육폭탄김치볶음밥 *계란후라이 우동장국 그린샐러드*드레싱 반달단무지 시리얼*우유",
-            "eng": "Loaded Pork Kimchi Fried Rice, Udon Soup Green Salad*Dressing Half Moon Pickled Radish Cereal*Milk",
-            "chn": "[早餐1,000韩元]猪肉炸弹泡菜炒饭*煎鸡蛋，乌冬面汤，蔬菜沙拉*调味料，腌萝卜麦片*牛奶",
+            "kor": "[천원의아침밥] 유부볶음밥 사골팟국 푸실리샐러드 깍두기 시리얼*우유",
+            "eng": "Fried Rice with Seasoned Tofu Pockets, Beef Bone Soup, Fusilli Salad, Kkakdugi Cereal*Milk",
+            "chn": "[1,000韩元早餐]炸豆腐、牛骨锅汤、螺丝粉沙拉、萝卜块麦片*牛奶",
             "tags": [
-                "🥚 계란(Egg/鸡蛋)",
-                "🐷 돼지고기(Pork/猪肉)",
-                "🌾 밀가루(Wheat/小麦)",
+                "🐄 소고기(Beef/牛肉)",
+                "🥜 콩/견과(Soy&Nuts/大豆&坚果)",
                 "🥛 유제품(Dairy/乳制品)"
             ]
         },
         {
             "type": "중식",
-            "kor": "삼색야키도리덮밥 파송송사골국 볼어묵곤약조림 깍두기",
-            "eng": "Three-Color Yakitori Rice Bowl, Pasong Beef Bone Soup, Fish Cake, Stewed Konjac, Kkakdugi",
-            "chn": "三色串烧盖饭、帕松、牛骨汤、鱼饼、炖魔芋、萝卜块",
+            "kor": "치폴레오리야채볶음 쌀밥/맑은콩나물국 목이버섯냉채 배추김치",
+            "eng": "Chipotle Duck Stir-Fry with Vegetables, Rice/clear bean sprout soup, wood ear mushroom cold vegetable, cabbage kimchi",
+            "chn": "墨西哥辣鸭 炒蔬菜 米饭/清豆芽汤 木耳 凉菜 卷心菜 泡菜",
             "tags": [
-                "🐟 해산물(Seafood/海鲜)",
-                "🐄 소고기(Beef/牛肉)"
-            ]
-        },
-        {
-            "type": "석식",
-            "kor": "회과육덮밥 두부장국 삼색겨자냉채 배추김치",
-            "eng": "Twice-Cooked Pork Rice Bowl, Tofu stew, three-color mustard cold vegetable, cabbage kimchi",
-            "chn": "刺身肉盖饭、豆腐汤、三色芥末冷菜、白菜泡菜",
-            "tags": [
-                "🥜 콩/견과(Soy&Nuts/大豆&坚果)"
-            ]
-        }
-    ],
-    "2026-07-28(화)": [
-        {
-            "type": "조식",
-            "kor": "[천원의아침밥] 등촌칼국수 쌀밥 미역줄기볶음 깍두기 시리얼*우유",
-            "eng": "ST 만두전골 Deungchon Kalguksu Style Dumpling Hot Pot, Rice Stir-fried Seaweed Stem Kkakdugi Cereal*Milk",
-            "chn": "[早餐1,000韩元]登村刀削面、米饭、炒海苔、萝卜块麦片*牛奶",
-            "tags": [
-                "🐟 해산물(Seafood/海鲜)",
-                "🌾 밀가루(Wheat/小麦)",
-                "🥛 유제품(Dairy/乳制品)"
-            ]
-        },
-        {
-            "type": "중식",
-            "kor": "풍미 가득 제육볶음 미역국 연근유자버무리 배추김치",
-            "eng": "Flavorful Spicy Pork Stir-Fry, Seaweed soup, lotus root mixed with citron, cabbage kimchi",
-            "chn": "炒猪肉，紫菜汤，莲藕柚子拌菜，白菜泡菜，味道十足",
-            "tags": [
-                "🐟 해산물(Seafood/海鲜)",
-                "🐷 돼지고기(Pork/猪肉)"
-            ]
-        },
-        {
-            "type": "석식",
-            "kor": "햄섞어찌개*라면사리 쌀밥 브로콜리메추리알샐러드 깍두기 요구르트",
-            "eng": "Ham Mixed Stew with Ramen Noodles, Rice Broccoli Quail Egg Salad Kkakdugi Yogurt",
-            "chn": "什锦火腿炖菜*拉面纱丽饭西兰花鹌鹑蛋沙拉萝卜块酸奶",
-            "tags": [
-                "🥚 계란(Egg/鸡蛋)",
-                "🐷 돼지고기(Pork/猪肉)",
-                "🌾 밀가루(Wheat/小麦)",
-                "🥛 유제품(Dairy/乳制品)"
-            ]
-        }
-    ],
-    "2026-07-29(수)": [
-        {
-            "type": "조식",
-            "kor": "[천원의아침밥] 비프카레라이스 쌀밥 삶은계란*소금 배추김치 우리쌀프레이크시리얼*저지방우유",
-            "eng": "Beef Curry Rice, Rice, boiled egg*salt, cabbage kimchi, Korean rice flake cereal*low-fat milk",
-            "chn": "[早餐1,000韩元] 咖喱牛肉饭、煮鸡蛋*盐、白菜泡菜、韩国米片麦片*低脂牛奶",
-            "tags": [
-                "🥚 계란(Egg/鸡蛋)",
-                "🥛 유제품(Dairy/乳制品)"
-            ]
-        },
-        {
-            "type": "중식",
-            "kor": "눈꽃치즈돈까스 오므라이스 팽이버섯계란국 후랑크마늘쫑볶음 깍두기",
-            "eng": "Snow Cheese Pork Cutlet, Enoki Mushroom Egg Soup Stir-fried Frankfurt Garlic Scallop Kkakdugi",
-            "chn": "雪花芝士炸猪排煎蛋饭金针菇蛋汤炒弗兰克蒜干贝萝卜块",
-            "tags": [
-                "🥚 계란(Egg/鸡蛋)",
-                "🐷 돼지고기(Pork/猪肉)",
-                "🥛 유제품(Dairy/乳制品)"
-            ]
-        },
-        {
-            "type": "석식",
-            "kor": "찹스테이크덮밥 청양초콩나물국 모듬버섯짬뽕볶음 배추김치",
-            "eng": "Chopped Steak Rice Bowl, Cheongyang Cho bean sprout soup, stir-fried mixed mushroom jjamppong, cabbage kimchi",
-            "chn": "牛排盖饭 青阳草豆芽汤 什锦蘑菇炒炸酱 白菜泡菜",
-            "tags": [
-                "🥜 콩/견과(Soy&Nuts/大豆&坚果)"
-            ]
-        }
-    ],
-    "2026-07-30(목)": [
-        {
-            "type": "조식",
-            "kor": "[천원의아침밥] 맑은닭곰탕*당면사리 쌀밥 메추리알어묵조림 깍두기 시리얼*우유",
-            "eng": "Clear Chicken Soup with Glass Noodles, Rice, braised quail roe, fish cake, Kkakdugi cereal*milk",
-            "chn": "[早餐1,000韩元]清鸡汤*粉丝，米饭，鹌鹑蛋，鱼饼，水煮鹌鹑蛋，鱼饼，麦片*牛奶",
-            "tags": [
-                "🐟 해산물(Seafood/海鲜)",
-                "🥛 유제품(Dairy/乳制品)",
-                "🥚 계란(Egg/鸡蛋)",
-                "🐔 닭고기(Chicken/鸡肉)",
-                "🌾 밀가루(Wheat/小麦)"
-            ]
-        },
-        {
-            "type": "중식",
-            "kor": "오리야채주물럭 쌀밥/순두부백탕 브로콜리맛살볶음 와사비쌈무 요구르트",
-            "eng": "Spicy Stir-Fried Duck with Vegetables, Rice/Soft Tofu Soup Stir-fried Broccoli Massage Wasabi Ssam Radish Yogurt",
-            "chn": "鸭肉蔬菜炒饭/豆腐汤 炒西兰花按摩 芥末 包菜萝卜 酸奶",
-            "tags": [
-                "🐟 해산물(Seafood/海鲜)",
-                "🥛 유제품(Dairy/乳制品)",
                 "🥜 콩/견과(Soy&Nuts/大豆&坚果)",
                 "🦆 오리고기(Duck/鸭肉)"
             ]
         },
         {
             "type": "석식",
-            "kor": "뚝]로제찜닭 쌀밥/맑은무채국 청포묵김가루무침 깍두기",
-            "eng": "Rose Braised Chicken in a Hot Stone Pot, Rice/Clear Radish Vegetable Soup Green Pomuk Seaweed Seasoned Kkakdugi",
-            "chn": "[Duk]玫瑰蒸鸡饭/清萝卜蔬菜汤，绿波莫克海藻沙拉调味萝卜块",
+            "kor": "누룽지간장찜닭 쌀밥/부추계란국 환어묵꽈리고추볶음 깍두기",
+            "eng": "Soy Braised Chicken with Scorched Rice, Rice/Leek Egg Soup Fish Cake and Stir-fried Red Pepper Kkakdugi",
+            "chn": "Nurungji酱油蒸鸡饭/韭菜鸡蛋汤炒鱼饼红辣椒萝卜块",
             "tags": [
+                "🥚 계란(Egg/鸡蛋)",
+                "🐟 해산물(Seafood/海鲜)",
                 "🐔 닭고기(Chicken/鸡肉)"
             ]
         }
     ],
-    "2026-07-31(금)": [
+    "2026-08-04(화)": [
         {
             "type": "조식",
-            "kor": "[천원의아침밥] 더큰참치마요 삼각김밥 미니라면 삶은계란*소금 그린샐러드*드레싱 우리쌀프레이크시리얼*저지방우유",
-            "eng": "Large Bacon Tuna Mayo Triangle Kimbap, Mini Ramen Boiled Egg*Salt Green Salad*Dressing Korean Rice Flake Cereal*Low-fat Milk",
-            "chn": "【早餐1,000韩元】大金枪鱼蛋黄酱三角紫菜包饭迷你拉面煮鸡蛋*盐青沙拉*调料韩式米片麦片*低脂牛奶",
+            "kor": "[천원의아침밥] 만두육개장 쌀밥 미역줄기햄볶음 배추김치 시리얼*우유",
+            "eng": "Spicy Beef Soup with Dumplings, Rice, seaweed, stir-fried ham, cabbage, kimchi, cereal*milk",
+            "chn": "[早餐1,000韩元] 饺子、油菜酱、米饭、紫菜、炒火腿、卷心菜、泡菜、麦片*牛奶",
             "tags": [
                 "🐟 해산물(Seafood/海鲜)",
+                "🐄 소고기(Beef/牛肉)",
+                "🌾 밀가루(Wheat/小麦)",
+                "🐷 돼지고기(Pork/猪肉)",
+                "🥛 유제품(Dairy/乳制品)"
+            ]
+        },
+        {
+            "type": "중식",
+            "kor": "뚝]파채돈육불고기 Hot Stone Bowl Pork Bulgogi with Green Onionibs 쌀밥/파송송어묵국 도토리묵상추무침 깍두기",
+            "eng": "Tuk] Green Onion Pork Bulgogi Hot Stone Bowl Pork Bulgogi with Green Onionibs Rice/Pasong Trout Fish Cake Soup Acorn Lettuce Salad Kkakdugi",
+            "chn": "[Duk] 热石碗猪肉烤肉配大葱饭/巴松鳟鱼饼汤橡子生菜沙拉萝卜块",
+            "tags": [
+                "🐄 소고기(Beef/牛肉)",
+                "🐷 돼지고기(Pork/猪肉)",
+                "🐟 해산물(Seafood/海鲜)"
+            ]
+        },
+        {
+            "type": "석식",
+            "kor": "대구동인동매운찜갈비 Daegu Dongin-dong Spicy Braised Beef Short Ribs 쌀밥/사골얼갈이국 맛살그린빈볶음 배추김치",
+            "eng": "Daegu Dongin-dong Spicy Braised Beef Short Ribs Rice/Beef Bone Soup Stir-fried Green Beans Cabbage Kimchi",
+            "chn": "大邱东仁洞 麻辣红烧牛小排饭/牛骨汤 炒青豆 白菜泡菜",
+            "tags": [
+                "🐄 소고기(Beef/牛肉)",
+                "🐟 해산물(Seafood/海鲜)"
+            ]
+        }
+    ],
+    "2026-08-05(수)": [
+        {
+            "type": "조식",
+            "kor": "[천원의아침밥] 햄김치볶음밥&계란후라이 미역국 방울토마토 반달단무지 우리쌀프레이크시리얼*저지방우유",
+            "eng": "Ham Kimchi Fried Rice with Fried Egg, Seaweed soup, cherry tomatoes, half-dal pickled radish, Korean rice flake cereal*low-fat milk",
+            "chn": "【早餐1,000韩元】火腿泡菜炒饭煎蛋、紫菜汤、圣女果、半月萝卜、韩国米片麦片*低脂牛奶",
+            "tags": [
+                "🥚 계란(Egg/鸡蛋)",
+                "🐷 돼지고기(Pork/猪肉)",
+                "🐟 해산물(Seafood/海鲜)",
+                "🥛 유제품(Dairy/乳制品)"
+            ]
+        },
+        {
+            "type": "중식",
+            "kor": "돈카츠동 우동장국 감자채피망볶음 배추김치",
+            "eng": "Pork Cutlet Rice Bowl, Udon Soup, Stir-fried Potato Shredded Peppers, Cabbage Kimchi",
+            "chn": "炸猪排丼 乌冬汤 炒土豆 辣椒丝 卷心菜 泡菜",
+            "tags": [
+                "🌾 밀가루(Wheat/小麦)",
+                "🐷 돼지고기(Pork/猪肉)"
+            ]
+        },
+        {
+            "type": "석식",
+            "kor": "닭불고기덮밥 얼큰콩나물김칫국 브로콜리참깨무침 깍두기",
+            "eng": "Chicken Bulgogi Rice Bowl, Spicy bean sprout kimchi soup, broccoli and sesame seasoning, KKakdugi",
+            "chn": "鸡肉烤肉盖饭 辣豆芽 泡菜汤 西兰花 芝麻沙拉 萝卜块",
+            "tags": [
+                "🐄 소고기(Beef/牛肉)",
+                "🥜 콩/견과(Soy&Nuts/大豆&坚果)",
+                "🐔 닭고기(Chicken/鸡肉)"
+            ]
+        }
+    ],
+    "2026-08-06(목)": [
+        {
+            "type": "조식",
+            "kor": "[천원의아침밥] 나주곰탕&당면사리 쌀밥 콩나물파채무침 깍두기 시리얼*우유",
+            "eng": "Naju Gomtang with Glass Noodles, Rice, bean sprouts, green onion salad, Kkakdugi cereal*milk",
+            "chn": "[早餐1,000韩元]罗州汤和粉丝、米饭、豆芽、葱沙拉、萝卜块麦片*牛奶",
+            "tags": [
+                "🥜 콩/견과(Soy&Nuts/大豆&坚果)",
+                "🌾 밀가루(Wheat/小麦)",
+                "🥛 유제품(Dairy/乳制品)"
+            ]
+        },
+        {
+            "type": "중식",
+            "kor": "소세지에그카레라이스 팽이미소된장국 그린샐러드*드레싱 깍두기",
+            "eng": "Sausage & Egg Curry Rice, Top Miso Soup Green Salad*Dressing Kkakdugi",
+            "chn": "香肠 鸡蛋 咖喱饭 顶级味噌汤 绿色沙拉 * 沙拉酱 萝卜块",
+            "tags": [
+                "🥜 콩/견과(Soy&Nuts/大豆&坚果)"
+            ]
+        },
+        {
+            "type": "석식",
+            "kor": "불맛치즈닭갈비덮밥 배추된장국 게맛살호박볶음 깍두기",
+            "eng": "Smoky Cheese Dakgalbi Rice Bowl, Cabbage Miso Soup Stir-fried Crab Meat Pumpkin Kkakdugi",
+            "chn": "布尔玛特芝士 鸡排盖饭 白菜味噌汤 炒蟹肉 南瓜萝卜块",
+            "tags": [
+                "🐟 해산물(Seafood/海鲜)",
+                "🐄 소고기(Beef/牛肉)",
+                "🥜 콩/견과(Soy&Nuts/大豆&坚果)",
+                "🥛 유제품(Dairy/乳制品)",
+                "🐔 닭고기(Chicken/鸡肉)"
+            ]
+        }
+    ],
+    "2026-08-07(금)": [
+        {
+            "type": "조식",
+            "kor": "[천원의아침밥] 소고기고추장볶음삼각김밥 미니라면 삶은계란*소금 그린샐러드*드레싱 우리쌀프레이크시리얼*저지방우유",
+            "eng": "Beef Gochujang Fried Rice Triangle Kimbap, Mini Ramen Boiled Egg*Salt Green Salad*Dressing Korean Rice Flake Cereal*Low-fat Milk",
+            "chn": "[早餐1,000韩元] 牛肉红辣椒酱炒三角紫菜包饭 迷你拉面 煮鸡蛋*盐 绿色沙拉*调料 韩式米片麦片*低脂牛奶",
+            "tags": [
+                "🐄 소고기(Beef/牛肉)",
                 "🥚 계란(Egg/鸡蛋)",
                 "🌾 밀가루(Wheat/小麦)",
                 "🥛 유제품(Dairy/乳制品)"
@@ -150,47 +154,48 @@
         },
         {
             "type": "중식",
-            "kor": "카라이돈코츠라멘 추가밥 감자고로케*칠리S 가쓰오단무지무침*락교",
-            "eng": "Spicy Tonkotsu Ramen, Additional rice Potato croquette*Chili S Katsuo pickled radish seasoned*Rakkyo",
-            "chn": "卡拉伊猪骨拉面 额外米饭 土豆炸丸子*辣椒 S 胜尾 腌萝卜调味*乐京",
+            "kor": "고기짬뽕 추가밥 새콤달콤탕수육 반달단무지",
+            "eng": "Spicy Pork Jjamppong, Additional rice Sweet and sour pork and half-dal pickled radish",
+            "chn": "肉Jjamppong 额外米饭 糖醋糖醋肉 半月腌萝卜",
             "tags": [
-                "🐷 돼지고기(Pork/猪肉)",
-                "🌾 밀가루(Wheat/小麦)"
+                "🐷 돼지고기(Pork/猪肉)"
             ]
         },
         {
             "type": "석식",
-            "kor": "속풀이매운갈비찜 쌀밥/쑥갓어묵국 마카로니콘샐러드 배추김치",
-            "eng": "Spicy Braised Short Ribs, Rice/Sagewort fish cake soup Macaroni corn salad Cabbage kimchi",
-            "chn": "麻辣红烧排骨、米饭/奶冠鱼饼汤、通心粉玉米沙拉、卷心菜泡菜",
-            "tags": [
-                "🐟 해산물(Seafood/海鲜)",
-                "🐄 소고기(Beef/牛肉)"
-            ]
-        }
-    ],
-    "2026-08-01(토)": [
-        {
-            "type": "중식",
-            "kor": "꽈리제육볶음 쌀밥/유부맑은국 후랑크마늘쫑볶음 배추김치",
-            "eng": "Stir-Fried Spicy Pork with Shishito Peppers, Rice/clear tofu soup, stir-fried garlic cloves, cabbage kimchi",
-            "chn": "炒kori-jeyuk，米饭/清豆腐汤，炒蒜瓣，卷心菜泡菜",
-            "tags": [
-                "🐷 돼지고기(Pork/猪肉)",
-                "🥜 콩/견과(Soy&Nuts/大豆&坚果)"
-            ]
-        },
-        {
-            "type": "석식",
-            "kor": "소고기무국 쌀밥 맛살느타리볶음 깍두기 요구르트",
-            "eng": "Beef Radish Soup, Rice, Stir-fried Oyster, Kkakdugi Yogurt",
-            "chn": "牛肉萝卜汤、米饭、炒生蚝、萝卜块酸奶",
+            "kor": "불맛치즈닭갈비덮밥 배추된장국 게맛살호박볶음 깍두기",
+            "eng": "Smoky Cheese Dakgalbi Rice Bowl, Cabbage Miso Soup Stir-fried Crab Meat Pumpkin Kkakdugi",
+            "chn": "布尔玛特芝士 鸡排盖饭 白菜味噌汤 炒蟹肉 南瓜萝卜块",
             "tags": [
                 "🐟 해산물(Seafood/海鲜)",
                 "🐄 소고기(Beef/牛肉)",
-                "🥛 유제품(Dairy/乳制品)"
+                "🥜 콩/견과(Soy&Nuts/大豆&坚果)",
+                "🥛 유제품(Dairy/乳制品)",
+                "🐔 닭고기(Chicken/鸡肉)"
             ]
         }
     ],
-    "2026-08-02(일)": []
+    "2026-08-08(토)": [
+        {
+            "type": "중식",
+            "kor": "바싹간장불고기 쌀밥/감자다시마국 청포묵김가루무침 깍두기",
+            "eng": "Crispy Soy Sauce Bulgogi, Rice/Potato Seaweed Soup Green Pomuk Seaweed Seasoned Kkakdugi",
+            "chn": "脆皮酱油烤肉饭/土豆海带汤 青浦凉粉 海带调味萝卜块",
+            "tags": [
+                "🐄 소고기(Beef/牛肉)",
+                "🐟 해산물(Seafood/海鲜)"
+            ]
+        },
+        {
+            "type": "석식",
+            "kor": "맑은소고기무국 쌀밥 메추리알곤약조림 배추김치",
+            "eng": "Clear Beef and Radish Soup, Rice, quail, braised konjac, cabbage kimchi",
+            "chn": "牛肉萝卜清汤，米饭，鹌鹑蛋，红烧魔芋，白菜泡菜",
+            "tags": [
+                "🐄 소고기(Beef/牛肉)",
+                "🥚 계란(Egg/鸡蛋)"
+            ]
+        }
+    ],
+    "2026-08-09(일)": []
 }

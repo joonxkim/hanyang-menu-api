@@ -3,29 +3,29 @@
         {
             "type": "조식",
             "kor": "[천원의아침밥] 게맛살야채볶음밥 *계란후라이 얼큰뭇국 야채샐러드*드레싱 배추김치 초코시리얼*우유",
-            "eng": "얼큰뭇국 야채샐러드*드레싱 배추김치 초코시리얼*우유",
+            "eng": "Spicy Radish Soup Vegetable Salad*Dressing Cabbage Kimchi Chocolate Cereal*Milk",
             "chn": "[천원의아침밥] 게맛살야채볶음밥 *계란후라이 얼큰뭇국 야채샐러드*드레싱 배추김치 초코시리얼*우유",
             "tags": [
-                "🥛 유제품(Dairy/乳制品)",
                 "🥚 계란(Egg/鸡蛋)",
+                "🥛 유제품(Dairy/乳制品)",
                 "🐟 해산물(Seafood/海鲜)"
             ]
         },
         {
             "type": "중식",
             "kor": "뚝]파채돈육불고기 쌀밥 유부장국 숙주나물냉채 배추김치 쥬시쿨",
-            "eng": "Pork Bulgogi with Green Onion, 쌀밥 유부장국 숙주나물냉채 배추김치 쥬시쿨",
+            "eng": "Pork Bulgogi with Green Onion, Rice, bean curd soup, bean sprouts, cold vegetables, cabbage kimchi, Juicy Cool",
             "chn": "뚝]파채돈육불고기 쌀밥 유부장국 숙주나물냉채 배추김치 쥬시쿨",
             "tags": [
-                "🥜 콩/견과(Soy&Nuts/大豆&坚果)",
                 "🐄 소고기(Beef/牛肉)",
+                "🥜 콩/견과(Soy&Nuts/大豆&坚果)",
                 "🐷 돼지고기(Pork/猪肉)"
             ]
         },
         {
             "type": "중식",
             "kor": "참치마요덮밥 쌀밥 유부장국 숙주나물냉채 배추김치 쥬시쿨",
-            "eng": "Tuna Mayo Rice Bowl, 쌀밥 유부장국 숙주나물냉채 배추김치 쥬시쿨",
+            "eng": "Tuna Mayo Rice Bowl, Rice, bean curd soup, bean sprouts, cold vegetables, cabbage kimchi, Juicy Cool",
             "chn": "참치마요덮밥 쌀밥 유부장국 숙주나물냉채 배추김치 쥬시쿨",
             "tags": [
                 "🥜 콩/견과(Soy&Nuts/大豆&坚果)",
@@ -35,12 +35,12 @@
         {
             "type": "석식",
             "kor": "우불고기볶음우동 추가밥 미소된장국 만두탕수 깍두기",
-            "eng": "Beef Bulgogi Stir-Fried Udon, 추가밥 미소된장국 만두탕수 Kkakdugi",
+            "eng": "Beef Bulgogi Stir-Fried Udon, Additional rice Miso Soup Soup Dumpling Soup Kkakdugi",
             "chn": "우불고기볶음우동 추가밥 미소된장국 만두탕수 萝卜块",
             "tags": [
+                "🐄 소고기(Beef/牛肉)",
                 "🌾 밀가루(Wheat/小麦)",
-                "🥜 콩/견과(Soy&Nuts/大豆&坚果)",
-                "🐄 소고기(Beef/牛肉)"
+                "🥜 콩/견과(Soy&Nuts/大豆&坚果)"
             ]
         }
     ],
@@ -51,8 +51,8 @@
             "eng": "Naju Gomtang with Noodles, Rice Vegetable Salad*Dressing Kkakdugi Chocolate Chex Cereal*Milk",
             "chn": "[천원의아침밥] 나주곰탕*소면사리 쌀밥 야채샐러드*드레싱 萝卜块 초코첵스시리얼*우유",
             "tags": [
-                "🥛 유제품(Dairy/乳制品)",
-                "🌾 밀가루(Wheat/小麦)"
+                "🌾 밀가루(Wheat/小麦)",
+                "🥛 유제품(Dairy/乳制品)"
             ]
         },
         {
@@ -65,8 +65,8 @@
         {
             "type": "중식",
             "kor": "뚝배기 소불고기 쌀밥 새송이곤약조림 깍두기 꿀떡",
-            "eng": "Korean-style Beef Bulgogi, 쌀밥 새송이곤약조림 Kkakdugi 꿀떡",
-            "chn": "土锅牛肉烤肉饭、红烧蒟蒻、萝卜块蜂蜜年糕",
+            "eng": "Korean-style Beef Bulgogi, Rice, braised king oyster konjac, Kkakdugi, honey rice cake",
+            "chn": "뚝배기 소불고기 쌀밥 새송이곤약조림 萝卜块 꿀떡",
             "tags": [
                 "🐄 소고기(Beef/牛肉)"
             ]
@@ -77,8 +77,8 @@
             "eng": "Pork Belly & Tofu Rice Bowl, 김칫국 부추오이무침 단무지 요구르트",
             "chn": "삼겹두부덮밥 김칫국 부추오이무침 단무지 요구르트",
             "tags": [
-                "🥛 유제품(Dairy/乳制品)",
                 "🥜 콩/견과(Soy&Nuts/大豆&坚果)",
+                "🥛 유제품(Dairy/乳制品)",
                 "🐷 돼지고기(Pork/猪肉)"
             ]
         }
@@ -90,37 +90,37 @@
             "eng": "Rice Cake Perilla Seed Soup, 쌀밥 야채샐러드*드레싱 Kkakdugi 후르트링시리얼*우유",
             "chn": "[천원의아침밥] 떡만두국 쌀밥 야채샐러드*드레싱 萝卜块 후르트링시리얼*우유",
             "tags": [
-                "🥛 유제품(Dairy/乳制品)",
-                "🌾 밀가루(Wheat/小麦)"
+                "🌾 밀가루(Wheat/小麦)",
+                "🥛 유제품(Dairy/乳制品)"
             ]
         },
         {
             "type": "중식",
             "kor": "치즈오므라이스 미역국 후랑크야채볶음 오이새콤무침 배추김치",
-            "eng": "Cheese Omurice, 미역국 후랑크야채볶음 오이새콤무침 배추김치",
-            "chn": "치즈오므라이스 미역국 후랑크야채볶음 오이새콤무침 배추김치",
+            "eng": "Cheese Omurice, Seaweed Soup, Stir-fried Frank Vegetables, Cucumber and Sour Seasoned Cabbage Kimchi",
+            "chn": "芝士煎蛋饭、紫菜汤、炒法兰克福蔬菜、黄瓜酸沙拉、卷心菜泡菜",
             "tags": [
-                "🥛 유제품(Dairy/乳制品)",
                 "🥚 계란(Egg/鸡蛋)",
-                "🐷 돼지고기(Pork/猪肉)",
-                "🐟 해산물(Seafood/海鲜)"
+                "🐟 해산물(Seafood/海鲜)",
+                "🥛 유제품(Dairy/乳制品)",
+                "🐷 돼지고기(Pork/猪肉)"
             ]
         },
         {
             "type": "중식",
             "kor": "매콤데리야끼치킨덮밥 미역국 후랑크야채볶음 오이새콤무침 배추김치",
             "eng": "Spicy Teriyaki Chicken Rice Bowl, 미역국 후랑크야채볶음 오이새콤무침 배추김치",
-            "chn": "매콤데리야끼치킨덮밥 미역국 후랑크야채볶음 오이새콤무침 배추김치",
+            "chn": "辣味照烧鸡肉盖饭、紫菜汤、炒乳香蔬菜、黄瓜酸沙拉、卷心菜泡菜",
             "tags": [
                 "🐔 닭고기(Chicken/鸡肉)",
-                "🐷 돼지고기(Pork/猪肉)",
-                "🐟 해산물(Seafood/海鲜)"
+                "🐟 해산물(Seafood/海鲜)",
+                "🐷 돼지고기(Pork/猪肉)"
             ]
         },
         {
             "type": "석식",
             "kor": "돈육두루치기 쌀밥 배추된장국 호박느타리볶음 깍두기",
-            "eng": "Spicy Stir-Fried Pork, 쌀밥 배추된장국 호박느타리볶음 Kkakdugi",
+            "eng": "Spicy Stir-Fried Pork, Rice, Cabbage, Miso Soup, Stir-fried Pumpkin Oyster Kkakdugi",
             "chn": "돈육두루치기 쌀밥 배추된장국 호박느타리볶음 萝卜块",
             "tags": [
                 "🥜 콩/견과(Soy&Nuts/大豆&坚果)",
@@ -135,8 +135,8 @@
             "eng": "Ham Kimchi Fried Rice with Fried Egg, 팽이장국 야채샐러드*드레싱 Kkakdugi 시리얼*우유",
             "chn": "[천원의아침밥] 햄김치볶음밥 *계란후라이 팽이장국 야채샐러드*드레싱 萝卜块 시리얼*우유",
             "tags": [
-                "🥛 유제품(Dairy/乳制品)",
                 "🥚 계란(Egg/鸡蛋)",
+                "🥛 유제품(Dairy/乳制品)",
                 "🐷 돼지고기(Pork/猪肉)"
             ]
         },
@@ -144,7 +144,7 @@
             "type": "중식",
             "kor": "에리카치즈돈까스",
             "eng": "Erika Cheese Pork Cutlet,",
-            "chn": "에리카치즈돈까스",
+            "chn": "艾丽卡芝士炸猪排",
             "tags": [
                 "🥛 유제품(Dairy/乳制品)",
                 "🐷 돼지고기(Pork/猪肉)"
@@ -153,12 +153,12 @@
         {
             "type": "석식",
             "kor": "간장찜닭 쌀밥 순두부맑은국 김말이튀김 배추김치",
-            "eng": "Korean Soy Sauce Braised Chicken, 쌀밥 순두부맑은국 김말이튀김 배추김치",
-            "chn": "간장찜닭 쌀밥 순두부맑은국 김말이튀김 배추김치",
+            "eng": "Korean Soy Sauce Braised Chicken, Rice, soft tofu, clear soup, seaweed roll, fried food, cabbage kimchi",
+            "chn": "酱油蒸鸡饭软豆腐清汤紫菜卷油炸食品白菜泡菜",
             "tags": [
                 "🐔 닭고기(Chicken/鸡肉)",
-                "🥜 콩/견과(Soy&Nuts/大豆&坚果)",
-                "🌾 밀가루(Wheat/小麦)"
+                "🌾 밀가루(Wheat/小麦)",
+                "🥜 콩/견과(Soy&Nuts/大豆&坚果)"
             ]
         }
     ],
@@ -166,20 +166,20 @@
         {
             "type": "조식",
             "kor": "[천원의아침밥] 스파이시치킨샌드위치 자연은망고 삶은계란*소금 샤인머스켓 우리쌀프레이크시리얼*저지방우유",
-            "eng": "Spicy Chicken Sandwich, 자연은망고 삶은계란*소금 샤인머스켓 우리쌀프레이크시리얼*저지방우유",
+            "eng": "Spicy Chicken Sandwich, Natural Mango Boiled Egg*Salt Shine Muscat Korean Rice Flake Cereal*Low-fat Milk",
             "chn": "[早餐1,000韩元] 辣鸡三明治 天然银芒果 煮鸡蛋*盐光玫瑰香 韩国米片麦片*低脂牛奶",
             "tags": [
                 "🐔 닭고기(Chicken/鸡肉)",
-                "🥚 계란(Egg/鸡蛋)",
                 "🌾 밀가루(Wheat/小麦)",
+                "🥚 계란(Egg/鸡蛋)",
                 "🥛 유제품(Dairy/乳制品)"
             ]
         },
         {
             "type": "중식",
             "kor": "CHINA FOOD DAY 고기짬뽕 추가밥 어묵국 깐풍기 짜사이무침 배추김치",
-            "eng": "Gogi Jjamppong, Additional Rice, Fish Cake Soup, Kkanpunggi, Jjasai Seasoned Cabbage Kimchi",
-            "chn": "CHINA FOOD DAY 고기짬뽕 추가밥 어묵국 깐풍기 짜사이무침 배추김치",
+            "eng": "Gogi Jjamppong, 추가밥 어묵국 깐풍기 짜사이무침 배추김치",
+            "chn": "CHINA FOOD DAY 肉Jjamppong 附加米鱼饼汤 Kkanpunggi Jjasai 调味卷心菜泡菜",
             "tags": [
                 "🐔 닭고기(Chicken/鸡肉)",
                 "🐟 해산물(Seafood/海鲜)"
@@ -199,11 +199,11 @@
             "type": "석식",
             "kor": "오리불고기 쌀밥 콩나물맑은국 부추무침 와사비쌈무",
             "eng": "Duck Bulgogi, 쌀밥 콩나물맑은국 부추무침 와사비쌈무",
-            "chn": "오리불고기 쌀밥 콩나물맑은국 부추무침 와사비쌈무",
+            "chn": "鸭肉烤肉，米饭，豆芽清汤，调味韭菜，芥末和萝卜",
             "tags": [
-                "🥜 콩/견과(Soy&Nuts/大豆&坚果)",
                 "🐄 소고기(Beef/牛肉)",
-                "🦆 오리고기(Duck/鸭肉)"
+                "🦆 오리고기(Duck/鸭肉)",
+                "🥜 콩/견과(Soy&Nuts/大豆&坚果)"
             ]
         }
     ],
@@ -214,15 +214,15 @@
             "eng": "Beef Bulgogi Hot Pot, 쌀밥 흑임자연근샐러드 Kkakdugi 요구르트",
             "chn": "牛肉烤肉火锅饭黑芝麻天然根沙拉萝卜块酸奶",
             "tags": [
-                "🥛 유제품(Dairy/乳制品)",
-                "🐄 소고기(Beef/牛肉)"
+                "🐄 소고기(Beef/牛肉)",
+                "🥛 유제품(Dairy/乳制品)"
             ]
         },
         {
             "type": "석식",
             "kor": "새우계란볶음밥 미니짬뽕국 고구마맛탕 깍두기 빅파이",
             "eng": "Shrimp & Egg Fried Rice, Mini Jjamppong Soup Sweet Potato Soup KKakdugi Big Pie",
-            "chn": "새우계란볶음밥 미니짬뽕국 고구마맛탕 萝卜块 빅파이",
+            "chn": "虾蛋炒饭、迷你炸酱汤、红薯汤、萝卜块大饼",
             "tags": [
                 "🥚 계란(Egg/鸡蛋)",
                 "🐟 해산물(Seafood/海鲜)"
@@ -233,8 +233,8 @@
         {
             "type": "중식",
             "kor": "훈제오리야채볶음 쌀밥 사골우거지국 청포묵김가루무침 깍두기",
-            "eng": "Smoked Duck & Vegetable Stir-Fry, 쌀밥 사골우거지국 청포묵김가루무침 Kkakdugi",
-            "chn": "훈제오리야채볶음 쌀밥 사골우거지국 청포묵김가루무침 萝卜块",
+            "eng": "Smoked Duck & Vegetable Stir-Fry, Rice, Beef Bone Beef Soup, Cheongpo Muk and Seaweed Seasoned Kkakdugi",
+            "chn": "熏鸭、炒菜、米饭、牛骨汤、青浦凉粉、海带萝卜块",
             "tags": [
                 "🐄 소고기(Beef/牛肉)",
                 "🦆 오리고기(Duck/鸭肉)"
@@ -243,12 +243,12 @@
         {
             "type": "석식",
             "kor": "돈육김치짜글이 쌀밥 멸치땅콩볶음 숙주미나리무침 깍두기",
-            "eng": "Spicy Pork & Kimchi Stew, 쌀밥 멸치땅콩볶음 숙주미나리무침 Kkakdugi",
-            "chn": "돈육김치짜글이 쌀밥 멸치땅콩볶음 숙주미나리무침 萝卜块",
+            "eng": "Spicy Pork & Kimchi Stew, Rice, stir-fried anchovy and peanut, bean sprout and water parsley salad, KKakdugi",
+            "chn": "猪肉泡菜jjaggy米饭炒凤尾鱼花生豆芽水香菜调味萝卜块",
             "tags": [
                 "🥜 콩/견과(Soy&Nuts/大豆&坚果)",
-                "🐷 돼지고기(Pork/猪肉)",
-                "🐟 해산물(Seafood/海鲜)"
+                "🐟 해산물(Seafood/海鲜)",
+                "🐷 돼지고기(Pork/猪肉)"
             ]
         }
     ]
